@@ -1,0 +1,160 @@
+termCode,name
+CAT01-01,CONCERTS - accompagnement musical d'un film
+CAT01-02,CONCERTS - blues / country / folk
+CAT01-03,CONCERTS - café-concert
+CAT01-04,CONCERTS - chanson française
+CAT01-05,CONCERTS - chanson
+CAT01-06,CONCERTS - néerlandophone
+CAT01-07,CONCERTS - chants / gospels  classique / contemporain / baroque / carillons
+CAT01-08,CONCERTS - electronique
+CAT01-09,CONCERTS - fanfare
+CAT01-10,CONCERTS - festival
+CAT01-11,CONCERTS - hip-hop / rap
+CAT01-12,CONCERTS - indie / experimental
+CAT01-13,CONCERTS - jazz
+CAT01-14,CONCERTS - metal / hard rock / hardcore / punk
+CAT01-15,CONCERTS - pop / rock / pop-rock
+CAT01-16,CONCERTS - reggae / ragga / dub / ska
+CAT01-17,CONCERTS - revue / danse cabaret
+CAT01-18,CONCERTS - rnb
+CAT01-19,CONCERTS - slam
+CAT01-20,CONCERTS - soul / funk
+CAT01-21,CONCERTS - world (musique du monde) / musique traditionnelle
+CAT01-22,CONCERTS - divers
+CAT01-00,CONCERTS
+CAT02-01,THÉATRE / SPECTACLES - amateur
+CAT02-02,THÉATRE / SPECTACLES - professionnel
+CAT02-03,THÉATRE / SPECTACLES - cabaret
+CAT02-04,THÉATRE / SPECTACLES - cirque
+CAT02-05,THÉATRE / SPECTACLES - comédie musicale
+CAT02-06,THÉATRE / SPECTACLES - danse
+CAT02-07,THÉATRE / SPECTACLES - dialectal
+CAT02-08,THÉATRE / SPECTACLES - festival
+CAT02-09,THÉATRE / SPECTACLES - humour / comédie
+CAT02-10,THÉATRE / SPECTACLES - marionnettes
+CAT02-11,THÉATRE / SPECTACLES - opéra
+CAT02-12,THÉATRE / SPECTACLES - opérette
+CAT02-13,THÉATRE / SPECTACLES - magie
+CAT02-14,THÉATRE / SPECTACLES - spectacle
+CAT02-15,THÉATRE / SPECTACLES - performances
+CAT02-00,THÉATRE / SPECTACLES
+CAT03-01,EXPOS - architecture
+CAT03-02,EXPOS - arts graphiques
+CAT03-03,EXPOS - biennale / triennale
+CAT03-04,EXPOS - bijoux
+CAT03-05,EXPOS - design
+CAT03-06,EXPOS - galerie
+CAT03-07,EXPOS - permanente
+CAT03-08,EXPOS - peintures
+CAT03-09,EXPOS - photographies
+CAT03-10,EXPOS - sculptures
+CAT03-11,EXPOS - techniques mixtes
+CAT03-12,EXPOS - virtuel / audio visuel / interactif
+CAT03-13,EXPOS - vernissages  divers
+CAT03-00,EXPOS
+CAT04-01,ÉVÉNEMENTS POUR ENFANTS - cinema
+CAT04-02,ÉVÉNEMENTS POUR ENFANTS - danse
+CAT04-03,ÉVÉNEMENTS POUR ENFANTS - exposition
+CAT04-04,ÉVÉNEMENTS POUR ENFANTS - lectures / contes
+CAT04-05,ÉVÉNEMENTS POUR ENFANTS - marionnettes
+CAT04-06,ÉVÉNEMENTS POUR ENFANTS - musique
+CAT04-07,ÉVÉNEMENTS POUR ENFANTS - stages
+CAT04-08,ÉVÉNEMENTS POUR ENFANTS - théâtre / spectacle
+CAT04-09,ÉVÉNEMENTS POUR ENFANTS - divers
+CAT04-00,ÉVÉNEMENTS POUR ENFANTS
+CAT05-01,CONFÉRENCES / DÉBATS - actualité / economie
+CAT05-02,CONFÉRENCES / DÉBATS - appels à projets
+CAT05-03,CONFÉRENCES / DÉBATS - art
+CAT05-04,CONFÉRENCES / DÉBATS - bien-être / santé
+CAT05-05,CONFÉRENCES / DÉBATS - cinéma
+CAT05-06,CONFÉRENCES / DÉBATS - danse
+CAT05-07,CONFÉRENCES / DÉBATS - histoire
+CAT05-08,CONFÉRENCES / DÉBATS - musique
+CAT05-09,CONFÉRENCES / DÉBATS - religion / spiritualité
+CAT05-10,CONFÉRENCES / DÉBATS - théâtre
+CAT05-11,CONFÉRENCES / DÉBATS - actualité / citoyenneté
+CAT05-12,CONFÉRENCES / DÉBATS - philosophie
+CAT05-13,CONFÉRENCES / DÉBATS - aménagement du territoire / urbanisme
+CAT05-14,CONFÉRENCES / DÉBATS - histoire / patrimoine
+CAT05-15,CONFÉRENCES / DÉBATS - environnement
+CAT05-16,CONFÉRENCES / DÉBATS - divers
+CAT05-00,CONFÉRENCES / DÉBATS
+CAT06-01,CONTES / LITTÉRATURES - contes
+CAT06-02,CONTES / LITTÉRATURES - littérature
+CAT06-03,CONTES / LITTÉRATURES - rencontres / dédicaces
+CAT06-04,CONTES / LITTÉRATURES - divers
+CAT06-00,CONTES / LITTÉRATURES
+CAT07-01,CINÉMA - festival
+CAT07-02,CINÉMA - projections
+CAT07-00,CINÉMA
+CAT08-01,ESCAPADES / DÉCOUVERTES / PATRIMOINE - balade
+CAT08-02,ESCAPADES / DÉCOUVERTES / PATRIMOINE - château
+CAT08-03,ESCAPADES / DÉCOUVERTES / PATRIMOINE - excursion
+CAT08-04,ESCAPADES / DÉCOUVERTES / PATRIMOINE - nature
+CAT08-05,ESCAPADES / DÉCOUVERTES / PATRIMOINE - patrimoine
+CAT08-06,ESCAPADES / DÉCOUVERTES / PATRIMOINE - portes ouvertes
+CAT08-07,ESCAPADES / DÉCOUVERTES / PATRIMOINE - visite
+CAT08-08,ESCAPADES / DÉCOUVERTES / PATRIMOINE - divers
+CAT08-00,ESCAPADES / DÉCOUVERTES / PATRIMOINE
+CAT09-01,STAGES / COURS - art de la scène
+CAT09-02,STAGES / COURS - art plastique
+CAT09-03,STAGES / COURS - ateliers
+CAT09-04,STAGES / COURS - audiovisuel
+CAT09-05,STAGES / COURS - cours
+CAT09-06,STAGES / COURS - musique
+CAT09-07,STAGES / COURS - santé / nature / bien-être
+CAT09-08,STAGES / COURS - sport
+CAT09-09,STAGES / COURS - divers
+CAT09-00,STAGES / COURS
+CAT10-01,SOIRÉES - afterwork
+CAT10-02,SOIRÉES - dance
+CAT10-03,SOIRÉES - disco
+CAT10-04,SOIRÉES - drum'n'bass / jungle
+CAT10-05,SOIRÉES - dubstep / grime / brokenbeat
+CAT10-06,SOIRÉES - electro  electronica / trip-hop / lounge
+CAT10-07,SOIRÉES - fidget / breakbeat / uk garage
+CAT10-08,SOIRÉES - lgbt
+CAT10-09,SOIRÉES - hardstyle
+CAT10-10,SOIRÉES - hip-hop
+CAT10-11,SOIRÉES - house
+CAT10-12,SOIRÉES - latino (salsa)
+CAT10-13,SOIRÉES - new-wave
+CAT10-14,SOIRÉES - pop rock
+CAT10-15,SOIRÉES - progressive / trance
+CAT10-16,SOIRÉES - rap
+CAT10-17,SOIRÉES - reggae / ragga / dub
+CAT10-18,"SOIRÉES - retro (rock, swing)"
+CAT10-19,SOIRÉES - retro (electronic)
+CAT10-20,SOIRÉES - rnb  soul / funk / groove
+CAT10-21,SOIRÉES - td
+CAT10-22,SOIRÉES - techno
+CAT10-23,SOIRÉES - techno / house
+CAT10-24,SOIRÉES - divers
+CAT10-00,SOIRÉES
+CAT11-01,ACTIVITÉS DIVERSES - activités en plein air
+CAT11-02,ACTIVITÉS DIVERSES - animations
+CAT11-03,ACTIVITÉS DIVERSES - festival multidisciplinaire
+CAT11-04,ACTIVITÉS DIVERSES - marché de l'art
+CAT11-05,ACTIVITÉS DIVERSES - mode
+CAT11-06,ACTIVITÉS DIVERSES - portes ouvertes
+CAT11-07,ACTIVITÉS DIVERSES - événements culinaires
+CAT11-00,ACTIVITÉS DIVERSES
+CAT12-01,SALONS / FOIRES - salon / foire
+CAT12-02,SALONS / FOIRES - artisanats
+CAT12-00,SALONS / FOIRES
+CAT13-01,MARCHÉS ET BROCANTES - bourse
+CAT13-02,MARCHÉS ET BROCANTES - braderie
+CAT13-03,MARCHÉS ET BROCANTES - brocante
+CAT13-04,MARCHÉS ET BROCANTES - marché
+CAT13-05,MARCHÉS ET BROCANTES - marché de noël
+CAT13-06,MARCHÉS ET BROCANTES - divers
+CAT13-00,MARCHÉS ET BROCANTES
+CAT14-01,FÊTES / FOLKLORE - bal / thé dansant
+CAT14-02,FÊTES / FOLKLORE - culte / commémoration
+CAT14-03,FÊTES / FOLKLORE - festivités
+CAT14-04,FÊTES / FOLKLORE - folklore  divers
+CAT14-00,FÊTES / FOLKLORE
+CAT15-01,SPORTS - sport en extérieur
+CAT15-02,SPORTS - sport en intérieur
+CAT15-03,SPORTS - tournoi / compétition / course
+CAT15-00,SPORTS

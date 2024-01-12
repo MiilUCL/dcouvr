@@ -1,0 +1,123 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id" : "https://sesam.be/validation_schemas/profile_schema.json", 
+    "title" : "Profile",
+    "description": "The profile of a SESAM user", 
+    "type":"object",
+    "properties": {
+        "identifier" : {
+            "description": "The unique identifier of the SESAM user",
+            "type": "integer"
+        }, 
+        "timestamp": {
+            "description": "The timestamp (datetime isoformat string) of the latest modification to the profile", 
+            "type": "string"
+        }, 
+        "versioning":{
+            "description": "The url to the specification of the SESAM ontology used",
+            "type":"string"
+        },
+        "preferences": {
+            "description": "The cultural preferences of the user", 
+            "type":"object",
+            "$ref": "#/$defs/preferences"
+        }
+    },
+    "required": ["identifier", "timestamp", "preferences"], 
+    "additionalProperties": false,
+
+
+    "$defs": {
+        "preferences": {
+            "$id": "/validation_schemas/preferences_schema.json",
+            "$schema" : "http://json-schema.org/draft-07/schema#", 
+            "title" : "Preferences",
+            "description": "The cultural preferences of a SESAM user", 
+            "type":"object", 
+            "properties": {
+                "categories" : {
+                    "description": "list of objects expressing preferences for categories of cultural contents",
+                    "type":"array", 
+                    "items" : {
+                        "type":"object",
+                        "$ref": "#/$defs/generic_preference"
+                    }
+                },
+                "audiences" : {
+                    "description": "list of objects expressing preferences for target audiences",
+                    "type":"array", 
+                    "items" : {
+                        "type":"object",
+                        "$ref": "#/$defs/generic_preference"
+                    }
+                }, 
+                "areas" : {
+                    "description": "list of objects expressing preferences for geographical areas",
+                    "type":"array", 
+                    "items" : {
+                        "type":"object",
+                        "$ref": "#/$defs/generic_preference"
+                    }
+                },
+                "culturalProducts" : {
+                    "description": "list of objects expressing preferences for cultural products",
+                    "type":"array", 
+                    "items" : {
+                        "type":"object",
+                        "$ref": "#/$defs/specific_preference"
+                    }
+                },
+                "culturalOperators" : {
+                    "description": "list of objects expressing preferences for cultural opertators",
+                    "type":"array", 
+                    "items" : {
+                        "type":"object",
+                        "$ref": "#/$defs/specific_preference"
+                    }
+                },
+                "culturalCreators" : {
+                    "description": "list of objects expressing preferences for cultural creators",
+                    "type":"array", 
+                    "items" : {
+                        "type":"object",
+                        "$ref": "#/$defs/specific_preference"
+                    }
+                }
+            }, 
+            "additionalProperties": false
+        }, 
+
+
+
+        "generic_preference" : {
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "$id" : "/validation_schemas/generic_preference_schema.json",
+            "type": "object", 
+            "properties": {
+                "name":{"type":"string"}, 
+                "termCode":{"type":"string"},
+                "inDefinedTermSet":{"type":"string"},
+                "rating":{"type":"integer"}, 
+                "timestamp":{"type":"string"}
+            }, 
+            "required": ["name", "termCode", "inDefinedTermSet", "rating", "timestamp"], 
+            "additionalProperties": false
+        }, 
+
+        "specific_preference" : {
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "$id" : "/validation_schemas/specific_preference_schema.json",
+            "type":"object", 
+            "properties":{
+                "identifier":{"type":"integer"}, 
+                "name":{"type":"string"}, 
+                "rating":{"type":"integer"}, 
+                "timestamp":{"type":"string"}, 
+                "type":{"type":"string"}
+            },
+            "required":["identifier", "name", "rating", "timestamp"], 
+            "additionalProperties": false
+        }
+    }
+}
+

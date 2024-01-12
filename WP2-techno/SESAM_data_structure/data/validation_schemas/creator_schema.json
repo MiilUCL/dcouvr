@@ -1,0 +1,68 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#", 
+    "$id": "https://sesam.be/validation_schemas/creator_schema.json", 
+    "title":"Creator", 
+    "description": "schema.org compliant description of a cultural creator", 
+    "type":"object", 
+    "properties" : {
+        "@context": {
+            "description": "obligatory schema.org element", 
+            "type":"string"
+        }, 
+        "@type": {
+            "description": "obligatory schema.org element", 
+            "type":"string"
+        }, 
+        "identifier":{
+            "description" : "identifier of creator object in SESAM database", 
+            "type":"integer"
+        }, 
+        "name":{
+            "description": "the name of the creator",
+            "type":"string"
+        }, 
+        "additionalName":{
+            "description": "the additional name of the creator",
+            "type":"string"
+        }, 
+        "givenName":{
+            "description": "the given name of the creator",
+            "type":"string"
+        }, 
+        "familyName":{
+            "description": "the family name of the creator",
+            "type":"string"
+        }, 
+        "keywords":{
+            "description": "associated categories of cultural content", 
+            "type":"array", 
+            "items": {
+                "type": "object", 
+                "$ref": "#/$defs/keyword"
+            }
+        }, 
+        "sameAs":{
+            "description": "link to webpage representing Creator on third party website",
+            "type":"string"
+        }
+    }, 
+    "required": ["@type","identifier", "name"], 
+
+    "$defs" : {
+        "keyword" : {
+            "$id":"validation_schemas/keywords_schema.json", 
+            "$schema" : "http://json-schema.org/draft-07/schema#", 
+            "title" : "Keywords",
+            "description": "keywords of a creator, expressing categories of cultural products", 
+            "type":"object", 
+            "properties": {
+                "@type": {"type":"string"},
+                "name":{"type":"string"},
+                "termCode":{"type":"string"}, 
+                "inDefinedTermSet":{"type":"string"}
+            }, 
+            "required":["@type","name", "termCode", "inDefinedTermSet"], 
+            "additionalProperties":false
+        }
+    }
+}

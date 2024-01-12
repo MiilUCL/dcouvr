@@ -1,0 +1,309 @@
+{
+  "events": [
+    {
+      "@context":"https://schema.org",
+      "@type": "Event",
+      "identifier": 10001,
+      "name": "Raios Quartet (B) musique brésilienne et portugaise",
+      "keywords": [
+        {
+          "@type": "DefinedTerm",
+          "name": "CONCERTS - world (musique du monde) / Musique traditionnelle",
+          "termCode": "CAT01-21",
+          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+        }
+      ],
+      "location": {
+        "@type": ["Place", "DefinedTerm"],
+        "name": "Liège",
+        "termCode": "LOC07",
+        "inDefinedTermSet": "https://tinyurl.com/sesam-areas"
+      },
+      "audience": [{
+        "@type": ["Audience", "DefinedTerm"],
+        "name": "Amis",
+        "termCode": "AUD01",
+        "inDefinedTermSet": "https://tinyurl.com/sesam-audiences"
+      }],
+      "organizer": {
+        "@type": "Organization",
+        "identifier": 20001,
+        "name": "Blues-sphere Bar"
+      },
+      "description" : "Découvrez la musique brésilienne et portugaise avec le Raios Quartet au Blues-sphere Bar à Liège.",
+      "startDate": "2023-11-23",
+      "sameAs": "https://www.out.be/fr/evenements/136594_raios-quartet-b-musique-bresilienne-et-portugaise.html?proximus"
+    },
+    {
+        "@context":"https://schema.org",
+      "@type": "Event",
+      "identifier": 10002,
+      "name": "Cro'Medy Club #1",
+      "keywords": [
+        {
+          "@type": "DefinedTerm",
+          "name": "THÉATRE / SPECTACLES - humour / comédie",
+          "termCode": "CAT02-09,",
+          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+        }
+      ],
+      "location": {
+        "@type": ["Place", "DefinedTerm"],
+        "name": "Région de Bruxelles-Capitale",
+        "termCode": "LOC01",
+        "inDefinedTermSet": "https://tinyurl.com/sesam-areas"
+      },
+      "audience": [{
+        "@type": ["Audience", "DefinedTerm"],
+        "name": "Amis",
+        "termCode": "AUD01",
+        "inDefinedTermSet": "https://tinyurl.com/sesam-audiences"
+      }],
+      "organizer": {
+        "@type": "Organization",
+        "identifier": 20002,
+        "name": "Maison de la Jeunesse de Woluwe-Saint-Lambert"
+      },
+      "startDate": "2023-11-23",
+      "description" : "Rires et comédie à la Maison de la Jeunesse de Woluwe-Saint-Lambert à Bruxelles.",
+      "sameAs": "https://www.out.be/fr/evenements/138608_cro-medy-club-1.html?proximus"
+    },
+    {
+        "@context":"https://schema.org",
+      "@type": "Event",
+      "identifier": 10003,
+      "name": "L'église Saint-Médard de Jodoigne",
+      "keywords": [
+        {
+          "@type": "DefinedTerm",
+          "name": "CONFÉRENCES / DÉBATS - histoire / patrimoine",
+          "termCode": "CAT05-14",
+          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+        }
+      ],
+      "location": {
+        "@type": ["Place", "DefinedTerm"],
+        "name": "Province du Brabant Wallon",
+        "termCode": "LOC05",
+        "inDefinedTermSet": "https://tinyurl.com/sesam-areas"
+      },
+      "audience": [{
+        "@type": ["Audience", "DefinedTerm"],
+        "name": "Conjoint",
+        "termCode": "AUD02",
+        "inDefinedTermSet": "https://tinyurl.com/sesam-audiences"
+      }],
+      "organizer": {
+        "@type": "Organization",
+        "identifier": 20003,
+        "name": "Extension ULB de Jodoigne & Environs"
+      },
+      "startDate": "2023-11-23",
+      "description" : "Découvrez l'histoire et le patrimoine à l'église Saint-Médard de Jodoigne, Province du Brabant Wallon.",
+      "sameAs": "https://www.out.be/fr/evenements/137830_l-eglise-saint-medard-de-jodoigne.html?proximus"
+    },
+    {
+        "@context":"https://schema.org",
+      "@type": "Event",
+      "identifier": 10004,
+      "name": "Explo - Bretagne",
+      "keywords": [
+        {
+          "@type": "DefinedTerm",
+          "name": "CINÉMA - projections",
+          "termCode": "CAT07-02",
+          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+        }
+      ],
+      "location": {
+        "@type": ["Place", "DefinedTerm"],
+        "name": "Province du Luxembourg",
+        "termCode": "LOC06",
+        "inDefinedTermSet": "https://tinyurl.com/sesam-areas"
+      },
+      "audience": [{
+        "@type": ["Audience", "DefinedTerm"],
+        "name": "Etudiants",
+        "termCode": "AUD06",
+        "inDefinedTermSet": "https://tinyurl.com/sesam-audiences"
+      }],
+      "organizer": {
+        "@type": "Organization",
+        "identifier": 20004,
+        "name": "Plaza"
+      },
+      "startDate": "2023-11-23",
+      "sameAs": "https://www.out.be/fr/evenements/137303_explo-bretagne.html?proximus"
+    },
+    {
+        "@context" : "https://schema.org",
+      "@type": "Event",
+      "identifier": 10005,
+      "name": "Vos livres ont la parole !",
+      "keywords": [
+        {
+          "@type": "DefinedTerm",
+          "name": "CONTES / LITTÉRATURES - divers",
+          "termCode": "CAT06-04",
+          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+        }
+      ],
+      "location": {
+        "@type": ["Place", "DefinedTerm"],
+        "name": "Liège",
+        "termCode": "LOC07",
+        "inDefinedTermSet": "https://tinyurl.com/sesam-areas"
+      },
+      "audience": [{
+        "@type": ["Audience", "DefinedTerm"],
+        "name": "Seul",
+        "termCode": "AUD08",
+        "inDefinedTermSet": "https://tinyurl.com/sesam-audiences"
+      }],
+      "organizer": {
+        "@type": "Organization",
+        "identifier": 20005,
+        "name": "Librairie Toutes Directions"
+      },
+      "startDate": "2023-11-24",
+      "description" : "Découvrez le cinéma avec Explo - Bretagne dans la Province du Luxembourg.",
+      "sameAs": "https://www.out.be/fr/evenements/138360_vos-livres-ont-la-parole.html?proximus"
+    },
+    {
+        "@context":"https://schema.org",
+      "@type": "Event",
+      "identifier": 10006,
+      "name": "Meet the artist: Baloji",
+      "keywords": [
+        {
+          "@type": "DefinedTerm",
+          "name": "CINEMA",
+          "termCode": "CAT07-00",
+          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+        }
+      ],
+      "location": {
+        "@type": ["Place", "DefinedTerm"],
+        "name": "Région de Bruxelles-Capitale",
+        "termCode": "LOC01",
+        "inDefinedTermSet": "https://tinyurl.com/sesam-areas"
+      },
+      "audience": [{
+        "@type": ["Audience", "DefinedTerm"],
+        "name": "Amis",
+        "termCode": "AUD01",
+        "inDefinedTermSet": "https://tinyurl.com/sesam-audiences"
+      }],
+      "organizer": {
+        "@type": "Organization",
+        "identifier": 20006,
+        "name": "Palais des Beaux-Arts de Bruxelles - Bozar"
+      },
+      "startDate": "2024-11-24",
+      "description":"Rencontrez l'artiste Baloji au Palais des Beaux-Arts de Bruxelles - Bozar.",
+      "sameAs": "https://www.out.be/fr/evenements/138682_meet-the-artist-baloji.html?proximus"
+    },
+    {
+        "@context":"https://schema.org",
+      "@type": "Event",
+      "identifier": 10007,
+      "name": "Didier Laloy Dyad & Strings Quartet ",
+      "keywords": [
+        {
+          "@type": "DefinedTerm",
+          "name": "CONCERTS - divers",
+          "termCode": "CAT01-22",
+          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+        }
+      ],
+      "location": {
+        "@type": ["Place", "DefinedTerm"],
+        "name": "Province de Liège",
+        "termCode": "LOC02",
+        "inDefinedTermSet": "https://tinyurl.com/sesam-areas"
+      },
+      "audience": [{
+        "@type": ["Audience", "DefinedTerm"],
+        "name": "Séniors",
+        "termCode": "AUD07",
+        "inDefinedTermSet": "https://tinyurl.com/sesam-audiences"
+      }],
+      "organizer": {
+        "@type": "Organization",
+        "identifier": 20007,
+        "name": "Centre Culturel de Chênée"
+      },
+      "startDate": "2023-11-24",
+      "description": "Découvrez un concert divers avec Didier Laloy Dyad & Strings Quartet au Centre Culturel de Chênée, Province de Liège.",
+      "sameAs": "https://www.out.be/fr/evenements/139721_didier-laloy-dyad-strings-quartet.html?proximus"
+    },
+    {
+        "@context":"https://schema.org",
+      "@type": "Event",
+      "identifier": 10008,
+      "name": "\"Les Bonnes\" de Jean genet",
+      "keywords": [
+        {
+          "@type": "DefinedTerm",
+          "name": "THÉATRE / SPECTACLES - professionnel",
+          "termCode": "CAT02-02",
+          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+        }
+      ],
+      "location": {
+        "@type": ["Place", "DefinedTerm"],
+        "name": "Province de Liège",
+        "termCode": "LOC02",
+        "inDefinedTermSet": "https://tinyurl.com/sesam-areas"
+      },
+      "audience": [{
+        "@type": ["Audience", "DefinedTerm"],
+        "name": "Enfants (12 ans +)",
+        "termCode": "AUD05",
+        "inDefinedTermSet": "https://tinyurl.com/sesam-audiences"
+      }],
+      "organizer": {
+        "@type": "Organization",
+        "identifier": 20008,
+        "name": "Centre Culturel d'Amay"
+      },
+      "startDate": "2024-11-24",
+      "description":"Découvrez la pièce professionnelle 'Les Bonnes' de Jean Genet au Centre Culturel d'Amay, Province de Liège.",
+      "sameAs": "https://www.out.be/fr/evenements/138196_les-bonnes-de-jean-genet.html?proximus"
+    },
+    {
+        "@context":"https://schema.org",
+      "@type": "Event",
+      "identifier": 10009,
+      "name": "New project : KAIS FRIHAT QUARTET",
+      "keywords": [
+        {
+          "@type": "DefinedTerm",
+          "name": "CONCERTS",
+          "termCode": "CAT01-00",
+          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+        }
+      ],
+      "location": {
+        "@type": ["Place", "DefinedTerm"],
+        "name": "Région de Bruxelles-Capitale",
+        "termCode": "LOC01",
+        "inDefinedTermSet": "https://tinyurl.com/sesam-areas"
+      },
+      "audience": [{
+        "@type": ["Audience", "DefinedTerm"],
+        "name": "Conjoint",
+        "termCode": "AUD02",
+        "inDefinedTermSet": "https://tinyurl.com/sesam-audiences"
+      }],
+      "organizer": {
+        "@type": "Organization",
+        "identifier": 20009,
+        "name": "The Music Village"
+      },
+      "startDate": "2022-03-01",
+      "description": "Découvrez le nouveau projet : KAIS FRIHAT QUARTET au Music Village, Région de Bruxelles-Capitale.",
+      "sameAs": "https://www.out.be/fr/evenements/53010_new-project-kais-frihat-quartet.html?proximus"
+    }
+  ]
+}

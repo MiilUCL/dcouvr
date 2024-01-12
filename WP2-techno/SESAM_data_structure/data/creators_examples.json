@@ -1,0 +1,359 @@
+{
+  "creators": [
+    {
+      "@context": "https://schema.org",
+      "@type": "PerformingGroup",
+      "name": "Girls in Hawaii",
+      "sameAs": "https://www.wikidata.org/wiki/Q2439293",
+      "identifier": 30001,
+      "keywords": [
+        {
+          "@type": "DefinedTerm",
+          "name": "CONCERTS - pop / rock / pop-rock",
+          "termCode": "CAT01-15",
+          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "CONCERTS - indie / experimental",
+          "termCode": "CAT01-12",
+          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Jacques Brel",
+      "givenName": "Jacques",
+      "familyName": "Brel",
+      "sameAs": "https://www.wikidata.org/wiki/Q1666",
+      "identifier": 30002,
+      "keywords": [
+        {
+          "@type": "DefinedTerm",
+          "name": "CONCERTS - chanson française",
+          "termCode": "CAT01-04",
+          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Angèle",
+      "sameAs": "https://www.wikidata.org/wiki/Q45192617",
+      "identifier": 30003,
+      "keywords": [
+        {
+          "@type": "DefinedTerm",
+          "name": "CONCERTS - chanson française",
+          "termCode": "CAT01-04",
+          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "CONCERTS - pop / rock / pop-rock",
+          "termCode": "CAT01-15",
+          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name":"Damso",
+      "additionalName": "Damso",
+      "sameAs": "https://www.wikidata.org/wiki/Q26255308",
+      "identifier": 30004,
+      "keywords": [
+        {
+          "@type": "DefinedTerm",
+          "name": "CONCERTS - hip-hop / rap",
+          "termCode": "CAT01-11",
+          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "iliona",
+      "sameAs": "https://www.wikidata.org/wiki/Q109039329",
+      "identifier": 30005,
+      "keywords": [
+        {
+          "@type": "DefinedTerm",
+          "name": "CONCERTS - chanson française",
+          "termCode": "CAT01-04",
+          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "CONCERTS - pop / rock / pop-rock",
+          "termCode": "CAT01-15",
+          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name":"Lukas Dhont",
+      "givenName": "Lukas",
+      "familyName": "Dhont",
+      "sameAs": "https://www.wikidata.org/wiki/Q53815755",
+      "identifier": 30006,
+      "keywords": [
+        {
+          "@type": "DefinedTerm",
+          "name": "CINÉMA - festival",
+          "termCode": "CAT07-01",
+          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "CINÉMA - projections",
+          "termCode": "CAT07-02",
+          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Emilie Dequenne",
+      "givenName": "Emilie",
+      "familyName": "Dequenne",
+      "sameAs": "https://www.wikidata.org/wiki/Q259968",
+      "identifier": 30007,
+      "keywords": [
+        {
+          "@type": "DefinedTerm",
+          "name": "CINÉMA - festival",
+          "termCode": "CAT07-01",
+          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "CINÉMA - projections",
+          "termCode": "CAT07-02",
+          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name" : "Guillermo Guiz",
+      "additionalName": "Guillermo Guiz",
+      "sameAs": "https://www.wikidata.org/wiki/Q50759589",
+      "identifier": 30008,
+      "keywords": [
+        {
+          "@type": "DefinedTerm",
+          "name": "THÉATRE / SPECTACLES - humour / comédie",
+          "termCode": "CAT02-09",
+          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name":"Charlotte De Witte",
+      "givenName": "Charlotte",
+      "familyName": "De Witte",
+      "sameAs": "https://www.wikidata.org/wiki/Q22668666",
+      "identifier": 30009,
+      "keywords": [
+        {
+          "@type": "DefinedTerm",
+          "name": "CONCERTS - electronique",
+          "termCode": "CAT01-08",
+          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "SOIRÉES - techno / house",
+          "termCode": "CAT10-23",
+          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "SportsOrganization",
+      "name": "Belgian Red Flames",
+      "sameAs": "https://www.wikidata.org/wiki/Q792326",
+      "identifier": 30010,
+      "keywords": [
+        {
+          "@type": "DefinedTerm",
+          "name": "SPORTS - sport en extérieur",
+          "termCode": "CAT15-01",
+          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "SPORTS - tournoi / compétition / course",
+          "termCode": "CAT15-03",
+          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name" : "Thibaut Courtois",
+      "givenName": "Thibaut",
+      "familyName": "Courtois",
+      "sameAs": "https://www.wikidata.org/wiki/Q73360",
+      "identifier": 30011,
+      "keywords": [
+        {
+          "@type": "DefinedTerm",
+          "name": "SPORTS - sport en extérieur",
+          "termCode": "CAT15-01",
+          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "SPORTS - tournoi / compétition / course",
+          "termCode": "CAT15-03",
+          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name":"Céline Delbecq",
+      "givenName": "Céline",
+      "familyName": "Delbecq",
+      "sameAs": "https://www.wikidata.org/wiki/Q22211802",
+      "identifier": 30012,
+      "keywords": [
+        {
+          "@type": "DefinedTerm",
+          "name": "CONFÉRENCES / DÉBATS - théâtre",
+          "termCode": "CAT05-10",
+          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "THÉATRE / SPECTACLES - professionnel",
+          "termCode": "CAT02-02",
+          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "PerformingGroup",
+      "name": "Cirque Nicolas Bouglione",
+      "sameAs": "",
+      "identifier": 30013,
+      "keywords": [
+        {
+          "@type": "DefinedTerm",
+          "name": "THÉATRE / SPECTACLES - cirque",
+          "termCode": "CAT02-04",
+          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name":"Jean Van Hamme",
+      "givenName": "Jean",
+      "familyName": "Van Hamme",
+      "sameAs": "https://www.wikidata.org/wiki/Q428160",
+      "identifier": 30014,
+      "keywords": [
+        {
+          "@type": "DefinedTerm",
+          "name": "EXPOS - arts graphiques",
+          "termCode": "CAT03-02",
+          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Zakia Khattabi",
+      "givenName": "Zakia",
+      "familyName": "Khattabi",
+      "sameAs": "https://www.wikidata.org/wiki/Q3574660",
+      "identifier": 30015,
+      "keywords": [
+        {
+          "@type": "DefinedTerm",
+          "name": "CONFÉRENCES / DÉBATS - actualité / economie",
+          "termCode": "CAT05-01",
+          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "CONFÉRENCES / DÉBATS - actualité / citoyenneté",
+          "termCode": "CAT05-11",
+          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "CONFÉRENCES / DÉBATS - environnement",
+          "termCode": "CAT05-15",
+          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name":"Jean Merveille",
+      "givenName": "Christian",
+      "familyName": "Merveille",
+      "sameAs": "https://www.wikidata.org/wiki/Q2965475",
+      "identifier": 30016,
+      "keywords": [
+        {
+          "@type": "DefinedTerm",
+          "name": "ÉVÉNEMENTS POUR ENFANTS - musique",
+          "termCode": "CAT04-06",
+          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name":"David Van Reybroeck",
+      "givenName": "David",
+      "familyName": "Van Reybroeck",
+      "sameAs": "https://www.wikidata.org/wiki/Q2490392",
+      "identifier": 30017,
+      "keywords": [
+        {
+          "@type": "DefinedTerm",
+          "name": "CONFÉRENCES / DÉBATS - histoire / patrimoine",
+          "termCode": "CAT05-14",
+          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "CONFÉRENCES / DÉBATS - actualité / citoyenneté",
+          "termCode": "CAT05-11",
+          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "CONTES / LITTÉRATURES - littérature",
+          "termCode": "CAT-06-02",
+          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+        }
+      ]
+    }
+  ]
+}

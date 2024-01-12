@@ -1,0 +1,76 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#", 
+    "$id": "https://sesam.be/validation_schemas/operator_schema.json", 
+    "title":"Operator", 
+    "description": "schema.org compliant description of a cultural operator", 
+    "type":"object", 
+    "properties" : {
+        "@context": {
+            "description": "obligatory schema.org element", 
+            "type":"string"
+        }, 
+        "@type": {
+            "description": "obligatory schema.org element", 
+            "type":"string"
+        }, 
+        "identifier":{
+            "description" : "identifier of operator object in SESAM database", 
+            "type":"integer"
+        }, 
+        "name":{
+            "description": "the name of the operator",
+            "type":"string"
+        }, 
+        "keywords":{
+            "description": "associated categories of cultural content", 
+            "type":"array", 
+            "items": {
+                "type": "object", 
+                "$ref": "#/$defs/keyword"
+            }
+        }, 
+        "location":{
+            "description": "associated geographical area", 
+            "type":"object", 
+            "$ref": "#/$defs/place"
+        }, 
+        "url":{
+            "description": "link to Operator webpage",
+            "type":"string"
+        }
+    }, 
+    "required": ["@type","identifier", "name"], 
+
+    "$defs" : {
+        "keyword" : {
+            "$id":"validation_schemas/keywords_schema.json", 
+            "$schema" : "http://json-schema.org/draft-07/schema#", 
+            "title" : "Keywords",
+            "description": "keywords of an operator, expressing categories of cultural products", 
+            "type":"object", 
+            "properties": {
+                "@type": {"type":"string"},
+                "name":{"type":"string"},
+                "termCode":{"type":"string"}, 
+                "inDefinedTermSet":{"type":"string"}
+            }, 
+            "required":["@type","name", "termCode", "inDefinedTermSet"], 
+            "additionalProperties":false
+        }, 
+        "place":{
+            "$id":"validation_schemas/place_schema.json", 
+            "$schema" : "http://json-schema.org/draft-07/schema#", 
+            "title":"Place",
+            "description":"geographical area associated to operator",
+            "type":"object",
+            "properties": {
+                "@type": {"type":"array", "items":{"type":"string"}},
+                "name":{"type":"string"},
+                "termCode":{"type":"string"}, 
+                "inDefinedTermSet":{"type":"string"}
+            }, 
+            "required":["@type","name", "termCode", "inDefinedTermSet"], 
+            "additionalProperties":false
+        }
+    }
+}
