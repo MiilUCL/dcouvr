@@ -1,0 +1,87 @@
+{
+    "identifier": 538,
+    "versioning": "https://sesam.be/data_model_v0",
+    "timestamp": "2024-01-12T15:53:43.736431",
+    "preferences": {
+        "categories": [
+            {
+                "name": "EXPOS - arts graphiques",
+                "termCode": "CAT03-02",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-categories",
+                "rating": 5,
+                "timestamp": "2024-01-12T15:53:43.736431"
+            }
+        ],
+        "audiences": [
+            {
+                "name": "Etudiants",
+                "termCode": "AUD06",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-audiences",
+                "rating": 1,
+                "timestamp": "2024-01-12T15:53:43.736431"
+            },
+            {
+                "name": "Enfants (12 ans +)",
+                "termCode": "AUD05",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-audiences",
+                "rating": 5,
+                "timestamp": "2024-01-12T15:53:43.736431"
+            },
+            {
+                "name": "Conjoint",
+                "termCode": "AUD02",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-audiences",
+                "rating": 1,
+                "timestamp": "2024-01-12T15:53:43.736431"
+            }
+        ],
+        "areas": [
+            {
+                "name": "Charleroi",
+                "termCode": "LOC08",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-areas",
+                "rating": 4,
+                "timestamp": "2024-01-12T15:53:43.736431"
+            },
+            {
+                "name": "province de Hainaut",
+                "termCode": "LOC03",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-areas",
+                "rating": 1,
+                "timestamp": "2024-01-12T15:53:43.736431"
+            }
+        ],
+        "culturalProducts": [
+            {
+                "identifier": 10004,
+                "name": "Explo - Bretagne",
+                "type": "Event",
+                "rating": 4,
+                "timestamp": "2024-01-12T15:53:43.736431"
+            },
+            {
+                "identifier": 10007,
+                "name": "Didier Laloy Dyad & Strings Quartet ",
+                "type": "Event",
+                "rating": 5,
+                "timestamp": "2024-01-12T15:53:43.736431"
+            },
+            {
+                "identifier": 10001,
+                "name": "Raios Quartet (B) musique brésilienne et portugaise",
+                "type": "Event",
+                "rating": 4,
+                "timestamp": "2024-01-12T15:53:43.736431"
+            },
+            {
+                "identifier": 10007,
+                "name": "Didier Laloy Dyad & Strings Quartet ",
+                "type": "Event",
+                "rating": 3,
+                "timestamp": "2024-01-12T15:53:43.736431"
+            }
+        ],
+        "culturalOperators": [],
+        "culturalCreators": []
+    }
+}

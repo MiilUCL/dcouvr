@@ -58,6 +58,12 @@
         "name": "Amis",
         "termCode": "AUD01",
         "inDefinedTermSet": "https://tinyurl.com/sesam-audiences"
+      }, 
+      {
+        "@type": ["Audience", "DefinedTerm"],
+        "name": "Conjoint",
+        "termCode": "AUD02",
+        "inDefinedTermSet": "https://tinyurl.com/sesam-audiences"
       }],
       "organizer": {
         "@type": "Organization",

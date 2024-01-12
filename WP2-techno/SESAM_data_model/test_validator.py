@@ -11,6 +11,8 @@ with open("data/validation_schemas/operator_schema.json", "r", encoding="utf-8")
 with open("data/validation_schemas/event_schema.json", "r", encoding="utf-8") as f_event: 
     event_reference = json.load(f_event)
 
+# comment
+
 test_profile = {
   "identifier":124,
   "timestamp": "2023-12-06T16:43:05.160547",

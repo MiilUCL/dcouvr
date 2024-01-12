@@ -1,0 +1,97 @@
+{
+    "identifier": 772,
+    "versioning": "https://sesam.be/data_model_v0",
+    "timestamp": "2024-01-12T15:53:43.760467",
+    "preferences": {
+        "categories": [
+            {
+                "name": "STAGES / COURS - art de la scène",
+                "termCode": "CAT09-01",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-categories",
+                "rating": 5,
+                "timestamp": "2024-01-12T15:53:43.760467"
+            }
+        ],
+        "audiences": [
+            {
+                "name": "Enfants (12 ans +)",
+                "termCode": "AUD05",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-audiences",
+                "rating": 2,
+                "timestamp": "2024-01-12T15:53:43.760467"
+            },
+            {
+                "name": "Enfants (0 à 6 ans)",
+                "termCode": "AUD03",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-audiences",
+                "rating": 3,
+                "timestamp": "2024-01-12T15:53:43.760467"
+            },
+            {
+                "name": "Enfants (7 à 11 ans)",
+                "termCode": "AUD04",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-audiences",
+                "rating": 4,
+                "timestamp": "2024-01-12T15:53:43.760467"
+            }
+        ],
+        "areas": [
+            {
+                "name": "Liège",
+                "termCode": "LOC07",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-areas",
+                "rating": 1,
+                "timestamp": "2024-01-12T15:53:43.760467"
+            },
+            {
+                "name": "Liège",
+                "termCode": "LOC07",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-areas",
+                "rating": 5,
+                "timestamp": "2024-01-12T15:53:43.760467"
+            }
+        ],
+        "culturalProducts": [
+            {
+                "identifier": 10005,
+                "name": "Vos livres ont la parole !",
+                "type": "Event",
+                "rating": 1,
+                "timestamp": "2024-01-12T15:53:43.760467"
+            }
+        ],
+        "culturalOperators": [],
+        "culturalCreators": [
+            {
+                "identifier": 30009,
+                "name": "Charlotte De Witte",
+                "rating": 2,
+                "timestamp": "2024-01-12T15:53:43.760467"
+            },
+            {
+                "identifier": 30014,
+                "name": "Jean Van Hamme",
+                "rating": 1,
+                "timestamp": "2024-01-12T15:53:43.760467"
+            },
+            {
+                "identifier": 30010,
+                "name": "Belgian Red Flames",
+                "rating": 5,
+                "timestamp": "2024-01-12T15:53:43.760467"
+            },
+            {
+                "identifier": 30007,
+                "name": "Emilie Dequenne",
+                "rating": 2,
+                "timestamp": "2024-01-12T15:53:43.760467"
+            },
+            {
+                "identifier": 30001,
+                "name": "Girls in Hawaii",
+                "rating": 5,
+                "timestamp": "2024-01-12T15:53:43.760467"
+            }
+        ]
+    }
+}

@@ -1,0 +1,131 @@
+{
+    "identifier": 995,
+    "versioning": "https://sesam.be/data_model_v0",
+    "timestamp": "2024-01-12T15:53:43.736431",
+    "preferences": {
+        "categories": [
+            {
+                "name": "STAGES / COURS - art de la scène",
+                "termCode": "CAT09-01",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-categories",
+                "rating": 3,
+                "timestamp": "2024-01-12T15:53:43.720808"
+            },
+            {
+                "name": "ESCAPADES / DÉCOUVERTES / PATRIMOINE",
+                "termCode": "CAT08-00",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-categories",
+                "rating": 2,
+                "timestamp": "2024-01-12T15:53:43.720808"
+            },
+            {
+                "name": "CONFÉRENCES / DÉBATS - actualité / citoyenneté",
+                "termCode": "CAT05-11",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-categories",
+                "rating": 5,
+                "timestamp": "2024-01-12T15:53:43.720808"
+            }
+        ],
+        "audiences": [
+            {
+                "name": "Enfants (12 ans +)",
+                "termCode": "AUD05",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-audiences",
+                "rating": 1,
+                "timestamp": "2024-01-12T15:53:43.720808"
+            },
+            {
+                "name": "Séniors",
+                "termCode": "AUD07",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-audiences",
+                "rating": 3,
+                "timestamp": "2024-01-12T15:53:43.720808"
+            }
+        ],
+        "areas": [
+            {
+                "name": "Charleroi",
+                "termCode": "LOC08",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-areas",
+                "rating": 4,
+                "timestamp": "2024-01-12T15:53:43.720808"
+            }
+        ],
+        "culturalProducts": [
+            {
+                "identifier": 10001,
+                "name": "Raios Quartet (B) musique brésilienne et portugaise",
+                "type": "Event",
+                "rating": 1,
+                "timestamp": "2024-01-12T15:53:43.720808"
+            },
+            {
+                "identifier": 10002,
+                "name": "Cro'Medy Club #1",
+                "type": "Event",
+                "rating": 3,
+                "timestamp": "2024-01-12T15:53:43.720808"
+            },
+            {
+                "identifier": 10006,
+                "name": "Meet the artist: Baloji",
+                "type": "Event",
+                "rating": 2,
+                "timestamp": "2024-01-12T15:53:43.736431"
+            },
+            {
+                "identifier": 10007,
+                "name": "Didier Laloy Dyad & Strings Quartet ",
+                "type": "Event",
+                "rating": 2,
+                "timestamp": "2024-01-12T15:53:43.736431"
+            }
+        ],
+        "culturalOperators": [
+            {
+                "identifier": 20006,
+                "name": "Palais des Beaux-Arts de Bruxelles - Bozar",
+                "rating": 2,
+                "timestamp": "2024-01-12T15:53:43.736431"
+            },
+            {
+                "identifier": 20001,
+                "name": "Blues-sphere Bar",
+                "rating": 1,
+                "timestamp": "2024-01-12T15:53:43.736431"
+            },
+            {
+                "identifier": 20007,
+                "name": "Centre Culturel de Chênée",
+                "rating": 4,
+                "timestamp": "2024-01-12T15:53:43.736431"
+            },
+            {
+                "identifier": 20008,
+                "name": "Centre Culturel d'Amay",
+                "rating": 1,
+                "timestamp": "2024-01-12T15:53:43.736431"
+            },
+            {
+                "identifier": 20004,
+                "name": "Plaza",
+                "rating": 5,
+                "timestamp": "2024-01-12T15:53:43.736431"
+            }
+        ],
+        "culturalCreators": [
+            {
+                "identifier": 30003,
+                "name": "Angèle",
+                "rating": 1,
+                "timestamp": "2024-01-12T15:53:43.736431"
+            },
+            {
+                "identifier": 30010,
+                "name": "Belgian Red Flames",
+                "rating": 1,
+                "timestamp": "2024-01-12T15:53:43.736431"
+            }
+        ]
+    }
+}

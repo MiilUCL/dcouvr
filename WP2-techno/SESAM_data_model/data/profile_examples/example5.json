@@ -1,0 +1,70 @@
+{
+    "identifier": 685,
+    "versioning": "https://sesam.be/data_model_v0",
+    "timestamp": "2024-01-12T15:53:43.736431",
+    "preferences": {
+        "categories": [],
+        "audiences": [
+            {
+                "name": "Seul",
+                "termCode": "AUD08",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-audiences",
+                "rating": 5,
+                "timestamp": "2024-01-12T15:53:43.736431"
+            }
+        ],
+        "areas": [
+            {
+                "name": "province de Namur",
+                "termCode": "LOC04",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-areas",
+                "rating": 4,
+                "timestamp": "2024-01-12T15:53:43.736431"
+            },
+            {
+                "name": "Arlon",
+                "termCode": "LOC24",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-areas",
+                "rating": 5,
+                "timestamp": "2024-01-12T15:53:43.736431"
+            },
+            {
+                "name": "Nivelles",
+                "termCode": "LOC09",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-areas",
+                "rating": 1,
+                "timestamp": "2024-01-12T15:53:43.736431"
+            }
+        ],
+        "culturalProducts": [
+            {
+                "identifier": 10009,
+                "name": "New project : KAIS FRIHAT QUARTET",
+                "type": "Event",
+                "rating": 4,
+                "timestamp": "2024-01-12T15:53:43.736431"
+            }
+        ],
+        "culturalOperators": [
+            {
+                "identifier": 20008,
+                "name": "Centre Culturel d'Amay",
+                "rating": 2,
+                "timestamp": "2024-01-12T15:53:43.736431"
+            },
+            {
+                "identifier": 20002,
+                "name": "Maison de la Jeunesse de Woluwe-Saint-Lambert",
+                "rating": 4,
+                "timestamp": "2024-01-12T15:53:43.736431"
+            },
+            {
+                "identifier": 20002,
+                "name": "Maison de la Jeunesse de Woluwe-Saint-Lambert",
+                "rating": 3,
+                "timestamp": "2024-01-12T15:53:43.736431"
+            }
+        ],
+        "culturalCreators": []
+    }
+}

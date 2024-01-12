@@ -1,0 +1,110 @@
+{
+    "identifier": 635,
+    "versioning": "https://sesam.be/data_model_v0",
+    "timestamp": "2024-01-12T15:53:43.760467",
+    "preferences": {
+        "categories": [
+            {
+                "name": "THÉATRE / SPECTACLES - opérette",
+                "termCode": "CAT02-12",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-categories",
+                "rating": 1,
+                "timestamp": "2024-01-12T15:53:43.760467"
+            },
+            {
+                "name": "SOIRÉES - electro  electronica / trip-hop / lounge",
+                "termCode": "CAT10-06",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-categories",
+                "rating": 4,
+                "timestamp": "2024-01-12T15:53:43.760467"
+            }
+        ],
+        "audiences": [],
+        "areas": [
+            {
+                "name": "Huy",
+                "termCode": "LOC17",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-areas",
+                "rating": 5,
+                "timestamp": "2024-01-12T15:53:43.760467"
+            },
+            {
+                "name": "Charleroi",
+                "termCode": "LOC08",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-areas",
+                "rating": 2,
+                "timestamp": "2024-01-12T15:53:43.760467"
+            },
+            {
+                "name": "Waremme",
+                "termCode": "LOC20",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-areas",
+                "rating": 4,
+                "timestamp": "2024-01-12T15:53:43.760467"
+            }
+        ],
+        "culturalProducts": [
+            {
+                "identifier": 10008,
+                "name": "\"Les Bonnes\" de Jean genet",
+                "type": "Event",
+                "rating": 1,
+                "timestamp": "2024-01-12T15:53:43.760467"
+            },
+            {
+                "identifier": 10007,
+                "name": "Didier Laloy Dyad & Strings Quartet ",
+                "type": "Event",
+                "rating": 3,
+                "timestamp": "2024-01-12T15:53:43.760467"
+            },
+            {
+                "identifier": 10008,
+                "name": "\"Les Bonnes\" de Jean genet",
+                "type": "Event",
+                "rating": 2,
+                "timestamp": "2024-01-12T15:53:43.760467"
+            },
+            {
+                "identifier": 10003,
+                "name": "L'église Saint-Médard de Jodoigne",
+                "type": "Event",
+                "rating": 2,
+                "timestamp": "2024-01-12T15:53:43.760467"
+            }
+        ],
+        "culturalOperators": [
+            {
+                "identifier": 20001,
+                "name": "Blues-sphere Bar",
+                "rating": 4,
+                "timestamp": "2024-01-12T15:53:43.760467"
+            },
+            {
+                "identifier": 20007,
+                "name": "Centre Culturel de Chênée",
+                "rating": 2,
+                "timestamp": "2024-01-12T15:53:43.760467"
+            },
+            {
+                "identifier": 20009,
+                "name": "The Music Village",
+                "rating": 2,
+                "timestamp": "2024-01-12T15:53:43.760467"
+            },
+            {
+                "identifier": 20001,
+                "name": "Blues-sphere Bar",
+                "rating": 1,
+                "timestamp": "2024-01-12T15:53:43.760467"
+            },
+            {
+                "identifier": 20007,
+                "name": "Centre Culturel de Chênée",
+                "rating": 1,
+                "timestamp": "2024-01-12T15:53:43.760467"
+            }
+        ],
+        "culturalCreators": []
+    }
+}

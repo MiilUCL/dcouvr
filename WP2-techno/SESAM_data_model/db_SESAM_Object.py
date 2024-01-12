@@ -61,7 +61,7 @@ class Event(DB_SESAM_Object):
     def __init__(self,
                  name, 
                  keywords, 
-                 name_audience, 
+                 audience, 
                  name_location, 
                  organizer_id, 
                  organizer_name, 
@@ -74,7 +74,7 @@ class Event(DB_SESAM_Object):
         Args:
             name (string): name of Event
             keywords (list): list of strings that are keywords associated to Event. From DefinedTermSet
-            name_audience (string): name of audience group associated to Event. From DefinedTermSet
+            audience (list): list of strings that are name of audience group associated to Event. From DefinedTermSet
             name_location (string): name of place/location associated to Event. From DefinedTermSet
             organizer_id (int): identifier of the Event's organizer (Operator object) in the SESAM Cultural Operator DB
             organizer_name (string): name of the Event's organizer (Operator object)
@@ -87,13 +87,20 @@ class Event(DB_SESAM_Object):
         self.sameAs = sameAs 
         super().__init__(name, keywords) 
         self.location = make_DefinedTerm_location_block(location_url, name_location)
-        self.audience = [make_DefinedTerm_audience_block(audience_url, name_audience)]
+        self.audience = [make_DefinedTerm_audience_block(audience_url, aud) for aud in audience]
         self.organizer = {"@type":"Organization", "identifier":organizer_id, "name":organizer_name}
         self.startDate = startDate
         if endDate is not None : 
             self.endDate = endDate
         self.description = description
 
+    def add_audience(self, new_audience):
+        """add audience to existing DB_SESAM_Object
+
+        Args:
+            new_audience (string): name of additionnal audience (from DefinedTermSet)
+        """
+        self.audience.append(make_DefinedTerm_audience_block(category_url, new_audience))
 
 class Operator(DB_SESAM_Object) : 
     def __init__(self, 

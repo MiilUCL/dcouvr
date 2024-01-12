@@ -1,0 +1,40 @@
+{
+    "identifier": 937,
+    "versioning": "https://sesam.be/data_model_v0",
+    "timestamp": "2024-01-12T15:53:43.752020",
+    "preferences": {
+        "categories": [
+            {
+                "name": "CONFÉRENCES / DÉBATS - religion / spiritualité",
+                "termCode": "CAT05-09",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-categories",
+                "rating": 5,
+                "timestamp": "2024-01-12T15:53:43.752020"
+            }
+        ],
+        "audiences": [],
+        "areas": [],
+        "culturalProducts": [],
+        "culturalOperators": [
+            {
+                "identifier": 20006,
+                "name": "Palais des Beaux-Arts de Bruxelles - Bozar",
+                "rating": 4,
+                "timestamp": "2024-01-12T15:53:43.752020"
+            },
+            {
+                "identifier": 20006,
+                "name": "Palais des Beaux-Arts de Bruxelles - Bozar",
+                "rating": 4,
+                "timestamp": "2024-01-12T15:53:43.752020"
+            },
+            {
+                "identifier": 20001,
+                "name": "Blues-sphere Bar",
+                "rating": 5,
+                "timestamp": "2024-01-12T15:53:43.752020"
+            }
+        ],
+        "culturalCreators": []
+    }
+}

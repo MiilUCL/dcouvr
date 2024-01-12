@@ -4,6 +4,8 @@ from helper_functions import make_audience_block, make_category_block, make_loca
 from db_SESAM_Object import Event, Operator, Creator
 from profiles import Profile, Preferences
 from preference_item import Preference_Item, Category, Audience, Area, CulturalCreator, CulturalOperator, CulturalProduct
+from random import randint
+
 
 
 """
@@ -101,38 +103,20 @@ def test_profile(n):
 
 
 def test_DB_SESAM_Object():
-    ev1 = Event("bbb", ["SPORTS"], 'Amis', 'Mons', 1001, "ccc", "du sport", "2024-01-04", None, "www.sport.be")
-    #print(vars(ev1))
-    op1 = Operator("aaa", ["EXPOS"], "Namur", "cinoche.com")
-    #print(vars(op1))
-    crea1 = Creator("Person",[],"johnny cupcake", "wiki.org", givenName=None, familyName=None)
-    #print(vars(crea1))
-    op1.add_category("EXPOS")
-    crea1.add_category("CONCERTS")
-    print(vars(op1))
-    print(vars(crea1))
-    crea1.export_to_schema_org_compliant_json("SESAM_data_structure/test_object.json",for_printing=True)
+    ev1 = Event("bbb", ["SPORTS"], ['Amis'], 'Mons', 1001, "ccc", "du sport", "2024-01-04", None, "www.sport.be")
+    ev1.add_audience("Conjoint")
+    ev1.export_to_schema_org_compliant_json("tests_results/test_event.json",for_printing=False)
     #op1.export_to_schema_org_compliant_json("SESAM_data_structure/test_object.json")
 
-#test_DB_SESAM_Object()
-    
-pro = Profile.generate_random(0,0,0,0,0,0)
 
-pro.export_json("test_result2.json")
+# generate 10 new examples of profiles
 
-#__main__("test_result2.json")
-
-#print(pro.to_string())
-
-#pref = test_preferences()
-#pref2 = pro.preferences
-#print(pref2.to_string())
-#r = pref2.to_string(for_printing=True)
-
-#with open("test_result2.json", "w", encoding='utf-8') as f: 
-#    json.dump(pro, f, ensure_ascii=False, indent=4)
-
-#pi = Preference_Item(1, "random")
-#print(pi.to_string())
-
-#print(pref.categories[0].to_string())
+for i in range(10):
+    n_c = randint(0, 5)
+    n_aud = randint(0, 3)
+    n_are  = randint(0, 3)
+    n_prod  = randint(0, 5)
+    n_ope  = randint(0, 5)
+    n_crea  = randint(0, 5)
+    profile = Profile.generate_random(n_c, n_aud, n_are, n_prod, n_ope, n_crea)
+    profile.export_json("profile_examples/example{}.json".format(i+1))

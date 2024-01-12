@@ -1,0 +1,123 @@
+{
+    "identifier": 889,
+    "versioning": "https://sesam.be/data_model_v0",
+    "timestamp": "2024-01-12T15:53:43.720808",
+    "preferences": {
+        "categories": [
+            {
+                "name": "SOIRÉES - techno",
+                "termCode": "CAT10-22",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-categories",
+                "rating": 1,
+                "timestamp": "2024-01-12T15:53:43.720808"
+            },
+            {
+                "name": "CONFÉRENCES / DÉBATS - bien-être / santé",
+                "termCode": "CAT05-04",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-categories",
+                "rating": 2,
+                "timestamp": "2024-01-12T15:53:43.720808"
+            },
+            {
+                "name": "SOIRÉES - disco",
+                "termCode": "CAT10-03",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-categories",
+                "rating": 3,
+                "timestamp": "2024-01-12T15:53:43.720808"
+            }
+        ],
+        "audiences": [
+            {
+                "name": "Etudiants",
+                "termCode": "AUD06",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-audiences",
+                "rating": 5,
+                "timestamp": "2024-01-12T15:53:43.720808"
+            }
+        ],
+        "areas": [
+            {
+                "name": "Huy",
+                "termCode": "LOC17",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-areas",
+                "rating": 5,
+                "timestamp": "2024-01-12T15:53:43.720808"
+            },
+            {
+                "name": "Ath",
+                "termCode": "LOC19",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-areas",
+                "rating": 1,
+                "timestamp": "2024-01-12T15:53:43.720808"
+            }
+        ],
+        "culturalProducts": [
+            {
+                "identifier": 10007,
+                "name": "Didier Laloy Dyad & Strings Quartet ",
+                "type": "Event",
+                "rating": 4,
+                "timestamp": "2024-01-12T15:53:43.720808"
+            },
+            {
+                "identifier": 10004,
+                "name": "Explo - Bretagne",
+                "type": "Event",
+                "rating": 1,
+                "timestamp": "2024-01-12T15:53:43.720808"
+            }
+        ],
+        "culturalOperators": [
+            {
+                "identifier": 20008,
+                "name": "Centre Culturel d'Amay",
+                "rating": 5,
+                "timestamp": "2024-01-12T15:53:43.720808"
+            },
+            {
+                "identifier": 20008,
+                "name": "Centre Culturel d'Amay",
+                "rating": 1,
+                "timestamp": "2024-01-12T15:53:43.720808"
+            },
+            {
+                "identifier": 20008,
+                "name": "Centre Culturel d'Amay",
+                "rating": 1,
+                "timestamp": "2024-01-12T15:53:43.720808"
+            }
+        ],
+        "culturalCreators": [
+            {
+                "identifier": 30011,
+                "name": "Thibaut Courtois",
+                "rating": 1,
+                "timestamp": "2024-01-12T15:53:43.720808"
+            },
+            {
+                "identifier": 30013,
+                "name": "Cirque Nicolas Bouglione",
+                "rating": 1,
+                "timestamp": "2024-01-12T15:53:43.720808"
+            },
+            {
+                "identifier": 30006,
+                "name": "Lukas Dhont",
+                "rating": 2,
+                "timestamp": "2024-01-12T15:53:43.720808"
+            },
+            {
+                "identifier": 30005,
+                "name": "iliona",
+                "rating": 2,
+                "timestamp": "2024-01-12T15:53:43.720808"
+            },
+            {
+                "identifier": 30006,
+                "name": "Lukas Dhont",
+                "rating": 2,
+                "timestamp": "2024-01-12T15:53:43.720808"
+            }
+        ]
+    }
+}

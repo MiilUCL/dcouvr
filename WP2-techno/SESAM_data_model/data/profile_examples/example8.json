@@ -1,0 +1,93 @@
+{
+    "identifier": 781,
+    "versioning": "https://sesam.be/data_model_v0",
+    "timestamp": "2024-01-12T15:53:43.760467",
+    "preferences": {
+        "categories": [
+            {
+                "name": "SOIRÉES - lgbt",
+                "termCode": "CAT10-08",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-categories",
+                "rating": 4,
+                "timestamp": "2024-01-12T15:53:43.752020"
+            },
+            {
+                "name": "STAGES / COURS - art plastique",
+                "termCode": "CAT09-02",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-categories",
+                "rating": 5,
+                "timestamp": "2024-01-12T15:53:43.752020"
+            },
+            {
+                "name": "EXPOS - techniques mixtes",
+                "termCode": "CAT03-11",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-categories",
+                "rating": 3,
+                "timestamp": "2024-01-12T15:53:43.752020"
+            }
+        ],
+        "audiences": [
+            {
+                "name": "Enfants (7 à 11 ans)",
+                "termCode": "AUD04",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-audiences",
+                "rating": 3,
+                "timestamp": "2024-01-12T15:53:43.752020"
+            },
+            {
+                "name": "Enfants (0 à 6 ans)",
+                "termCode": "AUD03",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-audiences",
+                "rating": 4,
+                "timestamp": "2024-01-12T15:53:43.752020"
+            },
+            {
+                "name": "Enfants (12 ans +)",
+                "termCode": "AUD05",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-audiences",
+                "rating": 4,
+                "timestamp": "2024-01-12T15:53:43.752020"
+            }
+        ],
+        "areas": [
+            {
+                "name": "Mouscron",
+                "termCode": "LOC21",
+                "inDefinedTermSet": "https://tinyurl.com/sesam-areas",
+                "rating": 1,
+                "timestamp": "2024-01-12T15:53:43.759715"
+            }
+        ],
+        "culturalProducts": [
+            {
+                "identifier": 10001,
+                "name": "Raios Quartet (B) musique brésilienne et portugaise",
+                "type": "Event",
+                "rating": 5,
+                "timestamp": "2024-01-12T15:53:43.760467"
+            }
+        ],
+        "culturalOperators": [
+            {
+                "identifier": 20007,
+                "name": "Centre Culturel de Chênée",
+                "rating": 3,
+                "timestamp": "2024-01-12T15:53:43.760467"
+            }
+        ],
+        "culturalCreators": [
+            {
+                "identifier": 30014,
+                "name": "Jean Van Hamme",
+                "rating": 5,
+                "timestamp": "2024-01-12T15:53:43.760467"
+            },
+            {
+                "identifier": 30012,
+                "name": "Céline Delbecq",
+                "rating": 3,
+                "timestamp": "2024-01-12T15:53:43.760467"
+            }
+        ]
+    }
+}
