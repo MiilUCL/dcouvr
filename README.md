@@ -20,7 +20,7 @@ Chacune des classes ci-dessus implémente une fonction permettant d'exporter les
 
 **Génération d'un profil utilisateur aléatoire**
 
-La fonction `Profile.generate_random()` permet de générer un profil utilisateur conforme à l'ontologie en sélectionnant aléatoirement des préférences culturelles parmi les répertoires d'exemples du dossier [*SESAM_data_model/data/*](SESAM_data_model/data). 
+La fonction `Profile.generate_random()` permet de générer un profil utilisateur conforme à l'ontologie en sélectionnant aléatoirement des préférences culturelles parmi les répertoires d'exemples du dossier [*SESAM_data_model/data/*](SESAM_data_model/data_model/source_data/). 
 
 Les arguments à passer à la fonction correspondent au nombre d'items de préférences à associer à chaque propriété du profil de préférence. 
 Un profil peut être obtenu et exporté au format .json de la manière suivante : 

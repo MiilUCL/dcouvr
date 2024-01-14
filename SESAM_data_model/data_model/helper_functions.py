@@ -6,9 +6,9 @@ category_url = "https://tinyurl.com/sesam-categories"
 location_url = "https://tinyurl.com/sesam-areas"
 audience_url = "https://tinyurl.com/sesam-audiences"
 # paths to termSets in local 
-category_termSet_path = "data/DefinedTermSet_categories.csv"
-audience_termSet_path = "data/DefinedTermSet_audience.csv"
-location_termSet_path = "data/DefinedTermSet_location.csv"
+category_termSet_path = "source_data/DefinedTermSet_categories.csv"
+audience_termSet_path = "source_data/DefinedTermSet_audience.csv"
+location_termSet_path = "source_data/DefinedTermSet_location.csv"
 
 def make_audience_block(url, name): 
     termSet = pd.read_csv(audience_termSet_path, encoding="latin1")

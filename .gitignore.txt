@@ -1,8 +1,10 @@
 # gitignore file for the dcouvr repository 
-# currently only handles the WP2-techno/ folder
+# currently only handles the WP2-techno related folders
 
-WP2-techno/SESAM_data_model/__pycache__/
-WP2-techno/SESAM_data_model/old/
-WP2-techno/SESAM_data_model/tests_results/
-WP2-techno/SESAM_data_model/*.json/
+SESAM_data_model/data_model/__pycache__/
+SESAM_data_model/tests_results/*.json
+
+
+
+
 
