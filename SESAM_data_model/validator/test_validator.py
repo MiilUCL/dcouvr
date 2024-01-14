@@ -1,14 +1,21 @@
 import json
 from validator import __main__
 
+# filepaths 
+path_event_schema = "validation_schemas/event_schema.json"
+path_operator_schema = "validation_schemas/operator_schema.json"
+path_creator_schema = "validation_schemas/creator_schema.json"
+path_profile_schema = "validation_schemas/profile_schema.json"
+
+
 # load predifined schemas 
-with open("data/validation_schemas/profile_schema.json", "r", encoding="utf-8") as f_profile: 
+with open(path_profile_schema, "r", encoding="utf-8") as f_profile: 
     profile_reference = json.load(f_profile)
-with open("data/validation_schemas/creator_schema.json", "r", encoding="utf-8") as f_creator: 
+with open(path_creator_schema, "r", encoding="utf-8") as f_creator: 
     creator_reference = json.load(f_creator)
-with open("data/validation_schemas/operator_schema.json", "r", encoding="utf-8") as f_operator: 
+with open(path_operator_schema, "r", encoding="utf-8") as f_operator: 
     operator_reference = json.load(f_operator)
-with open("data/validation_schemas/event_schema.json", "r", encoding="utf-8") as f_event: 
+with open(path_event_schema, "r", encoding="utf-8") as f_event: 
     event_reference = json.load(f_event)
 
 # comment
