@@ -28,13 +28,13 @@ category_url = "https://tinyurl.com/sesam-categories"
 location_url = "https://tinyurl.com/sesam-areas"
 audience_url = "https://tinyurl.com/sesam-audiences"
 # paths to termSets in local 
-category_termSet_path = "data/DefinedTermSet_categories.csv"
-audience_termSet_path = "data/DefinedTermSet_audience.csv"
-location_termSet_path = "data/DefinedTermSet_location.csv"
+category_termSet_path = "source_data/DefinedTermSet_categories.csv"
+audience_termSet_path = "source_data/DefinedTermSet_audience.csv"
+location_termSet_path = "source_data/DefinedTermSet_location.csv"
 # paths to events, creators, operators examples 
-events_examples_path = "data/events_examples.json"
-operators_examples_path = "data/operators_examples.json"
-creators_examples_path = "data/creators_examples.json"
+events_examples_path = "source_data/events_examples.json"
+operators_examples_path = "source_data/operators_examples.json"
+creators_examples_path = "source_data/creators_examples.json"
 # current version to SESAM ontology (fake)
 versioning_url = "https://sesam.be/data_model_v0" 
 
@@ -111,12 +111,23 @@ def test_DB_SESAM_Object():
 
 # generate 10 new examples of profiles
 
-for i in range(10):
-    n_c = randint(0, 5)
-    n_aud = randint(0, 3)
-    n_are  = randint(0, 3)
-    n_prod  = randint(0, 5)
-    n_ope  = randint(0, 5)
-    n_crea  = randint(0, 5)
-    profile = Profile.generate_random(n_c, n_aud, n_are, n_prod, n_ope, n_crea)
-    profile.export_json("profile_examples/example{}.json".format(i+1))
+def generate_examples():
+    for i in range(10):
+        n_c = randint(0, 5)
+        n_aud = randint(0, 3)
+        n_are  = randint(0, 3)
+        n_prod  = randint(0, 5)
+        n_ope  = randint(0, 5)
+        n_crea  = randint(0, 5)
+        profile = Profile.generate_random(n_c, n_aud, n_are, n_prod, n_ope, n_crea)
+        profile.export_json("profile_examples/example{}.json".format(i+1))
+
+def do_all_tests():
+    test_preference_items()
+    test_DB_SESAM_Object()
+    test_preferences()
+    test_profile(2)
+    test_select_random()
+    print("okie dokie")
+
+do_all_tests()
