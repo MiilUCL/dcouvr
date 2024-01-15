@@ -1,10 +1,10 @@
-## WP2 - Technologie : sesam
+# WP2 - Technologie : sesam
 
-### Ontologie : data_model
+## Ontologie : data_model
 
 Dans le cadre du WP2 - Technologie, un modèle de données et une ontologie ont été développées pour décrire les profils de préférences culturelles des utilisateurs SESAM et pour représenter les différents types de données qui seront stockées dans les différentes bases de données gérées par SESAM.
 
-Une description détaillée du modèle de données SESAM peut être consultée à ce *lien*
+Une description détaillée du modèle de données SESAM peut être consultée à ce *lien* et le dossier [*data_model/documentation*](data_model/documentation/) contient des schémas de classes permettant d'avoir un aperçu du modèle de données. Ces schémas sont visibles au format .png et .svg et les versions au format .xml peuvent être ouvertes et modifiées dans [draw.io](*https://app.diagrams.net/*).
 
 Le type d'objet qui représente un profil de préférences est `Profile` qui contient un objet `Preferences`. Ces deux classes sont définies dans le fichier `profile.py`. `Preferences` contient des listes d'objets de différents types, qui sont des sous-classes de `Preference_Item`. La classe `Preference_Item` ainsi que ses six sous-classes sont définis dans le fichier `preference_item.py`.
 
@@ -28,7 +28,7 @@ profile.export_json(save_path)
 
 **Validator**
 
-Le dossier [*data_model/validator](data_model/validator/) contient des outils qui permettent de valider qu'un objet au format .json est confomrme au modèle de données de SESAM. 
+Le dossier [*data_model/validator*](data_model/validator/) contient des outils qui permettent de valider qu'un objet au format .json est confomrme au modèle de données de SESAM. 
 
 La fonction `main()` du fichier `validator.py` utilise le package `jsonschema` pour valider la conformié du fichier json passé en argument selon les schémas définis dans le dossier *data/validation_schemas/*  
 
