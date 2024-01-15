@@ -4,7 +4,9 @@
 
 Dans le cadre du WP2 - Technologie, un modèle de données et une ontologie ont été développées pour décrire les profils de préférences culturelles des utilisateurs SESAM et pour représenter les différents types de données qui seront stockées dans les différentes bases de données gérées par SESAM.
 
-Une description détaillée du modèle de données SESAM peut être consultée à ce *lien* et le dossier [*data_model/documentation*](data_model/documentation/) contient des schémas de classes permettant d'avoir un aperçu du modèle de données. Ces schémas sont visibles au format .png et .svg et les versions au format .xml peuvent être ouvertes et modifiées dans [draw.io](*https://app.diagrams.net/*).
+Une description détaillée du modèle de données SESAM peut être consultée à ce *lien* et le dossier [*data_model/documentation/diagrammes*](data_model/documentation/diagrammes/) contient des schémas de classes permettant d'avoir un aperçu du modèle de données. Ces schémas sont visibles au format .png et .svg et les versions au format .xml peuvent être ouvertes et modifiées dans [draw.io](*https://app.diagrams.net/*).
+
+Des versions interactives des objets définis par le modèle de données peuvent également être consultées dans le dossier [*data_model/documentation/structures*](data_model/documentation/structures/).
 
 Le type d'objet qui représente un profil de préférences est `Profile` qui contient un objet `Preferences`. Ces deux classes sont définies dans le fichier `profile.py`. `Preferences` contient des listes d'objets de différents types, qui sont des sous-classes de `Preference_Item`. La classe `Preference_Item` ainsi que ses six sous-classes sont définis dans le fichier `preference_item.py`.
 
