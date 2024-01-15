@@ -45,15 +45,15 @@ def __main__(obj):
         except Exception as e :
             print(f"object is not valid based on SESAM ontology : {e}")
 
+if __name__ == "__main__" : 
+    args = sys.argv
+    if len(args) !=2: 
+        print("you have entered an incorrect number of arguments")
+        print("please enter as only argument the relative path to the json object to be validated")
+        exit()
 
-args = sys.argv
-if len(args) !=2: 
-    print("you have entered an incorrect number of arguments")
-    print("please enter as only argument the relative path to the json object to be validated")
-    exit()
 
-
-path = args[1]
-with open(path, "r", encoding="utf-8") as fp : 
-    json_data = json.load(fp)
-__main__(json_data)
+    path = args[1]
+    with open(path, "r", encoding="utf-8") as fp : 
+        json_data = json.load(fp)
+    __main__(json_data)

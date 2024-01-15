@@ -144,7 +144,7 @@ test_operator = {
     }
 
 
-with open("data/creators_examples.json", "r", encoding="utf-8") as f_creators: 
+with open("../source_data/creators_examples.json", "r", encoding="utf-8") as f_creators: 
     creators = json.load(f_creators)
 for c in creators["creators"]:
   __main__(c)
