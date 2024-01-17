@@ -1,122 +1,121 @@
 {
-    "identifier": 889,
-    "versioning": "https://sesam.be/data_model_v0",
-    "timestamp": "2024-01-12T15:53:43.720808",
+    "identifier": 637,
+    "versioning": "https://miilucl.github.io/dcouvr/sesam_v0/profile_schema.html",
+    "timestamp": "2024-01-17T17:56:40.476776",
     "preferences": {
         "categories": [
             {
-                "name": "SOIRÉES - techno",
-                "termCode": "CAT10-22",
-                "inDefinedTermSet": "https://tinyurl.com/sesam-categories",
+                "name": "CONCERTS - festival",
+                "termCode": "CAT01-10",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_categories.csv",
                 "rating": 1,
-                "timestamp": "2024-01-12T15:53:43.720808"
-            },
-            {
-                "name": "CONFÉRENCES / DÉBATS - bien-être / santé",
-                "termCode": "CAT05-04",
-                "inDefinedTermSet": "https://tinyurl.com/sesam-categories",
-                "rating": 2,
-                "timestamp": "2024-01-12T15:53:43.720808"
-            },
-            {
-                "name": "SOIRÉES - disco",
-                "termCode": "CAT10-03",
-                "inDefinedTermSet": "https://tinyurl.com/sesam-categories",
-                "rating": 3,
-                "timestamp": "2024-01-12T15:53:43.720808"
+                "timestamp": "2024-01-17T17:56:40.472197"
             }
         ],
         "audiences": [
             {
-                "name": "Etudiants",
-                "termCode": "AUD06",
-                "inDefinedTermSet": "https://tinyurl.com/sesam-audiences",
+                "name": "Séniors",
+                "termCode": "AUD07",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_audience.csv",
+                "rating": 1,
+                "timestamp": "2024-01-17T17:56:40.473154"
+            },
+            {
+                "name": "Enfants (0 à 6 ans)",
+                "termCode": "AUD03",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_audience.csv",
                 "rating": 5,
-                "timestamp": "2024-01-12T15:53:43.720808"
+                "timestamp": "2024-01-17T17:56:40.474150"
             }
         ],
         "areas": [
             {
-                "name": "Huy",
-                "termCode": "LOC17",
-                "inDefinedTermSet": "https://tinyurl.com/sesam-areas",
-                "rating": 5,
-                "timestamp": "2024-01-12T15:53:43.720808"
-            },
-            {
-                "name": "Ath",
-                "termCode": "LOC19",
-                "inDefinedTermSet": "https://tinyurl.com/sesam-areas",
-                "rating": 1,
-                "timestamp": "2024-01-12T15:53:43.720808"
+                "name": "Nivelles",
+                "termCode": "LOC09",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_location.csv",
+                "rating": 4,
+                "timestamp": "2024-01-17T17:56:40.475148"
             }
         ],
         "culturalProducts": [
             {
-                "identifier": 10007,
-                "name": "Didier Laloy Dyad & Strings Quartet ",
+                "identifier": 10008,
+                "name": "\"Les Bonnes\" de Jean genet",
                 "type": "Event",
-                "rating": 4,
-                "timestamp": "2024-01-12T15:53:43.720808"
+                "rating": 5,
+                "timestamp": "2024-01-17T17:56:40.475148"
+            },
+            {
+                "identifier": 10003,
+                "name": "L'église Saint-Médard de Jodoigne",
+                "type": "Event",
+                "rating": 2,
+                "timestamp": "2024-01-17T17:56:40.475148"
             },
             {
                 "identifier": 10004,
                 "name": "Explo - Bretagne",
                 "type": "Event",
-                "rating": 1,
-                "timestamp": "2024-01-12T15:53:43.720808"
+                "rating": 3,
+                "timestamp": "2024-01-17T17:56:40.475148"
             }
         ],
         "culturalOperators": [
             {
+                "identifier": 20002,
+                "name": "Maison de la Jeunesse de Woluwe-Saint-Lambert",
+                "rating": 2,
+                "timestamp": "2024-01-17T17:56:40.475148"
+            },
+            {
+                "identifier": 20003,
+                "name": "Extension ULB de Jodoigne & Environs",
+                "rating": 3,
+                "timestamp": "2024-01-17T17:56:40.475148"
+            },
+            {
+                "identifier": 20006,
+                "name": "Palais des Beaux-Arts de Bruxelles - Bozar",
+                "rating": 1,
+                "timestamp": "2024-01-17T17:56:40.475148"
+            },
+            {
+                "identifier": 20003,
+                "name": "Extension ULB de Jodoigne & Environs",
+                "rating": 3,
+                "timestamp": "2024-01-17T17:56:40.475148"
+            },
+            {
                 "identifier": 20008,
                 "name": "Centre Culturel d'Amay",
                 "rating": 5,
-                "timestamp": "2024-01-12T15:53:43.720808"
-            },
-            {
-                "identifier": 20008,
-                "name": "Centre Culturel d'Amay",
-                "rating": 1,
-                "timestamp": "2024-01-12T15:53:43.720808"
-            },
-            {
-                "identifier": 20008,
-                "name": "Centre Culturel d'Amay",
-                "rating": 1,
-                "timestamp": "2024-01-12T15:53:43.720808"
+                "timestamp": "2024-01-17T17:56:40.475148"
             }
         ],
         "culturalCreators": [
             {
-                "identifier": 30011,
-                "name": "Thibaut Courtois",
-                "rating": 1,
-                "timestamp": "2024-01-12T15:53:43.720808"
+                "identifier": 30001,
+                "name": "Girls in Hawaii",
+                "rating": 3,
+                "timestamp": "2024-01-17T17:56:40.475148"
             },
             {
-                "identifier": 30013,
-                "name": "Cirque Nicolas Bouglione",
+                "identifier": 30002,
+                "name": "Jacques Brel",
                 "rating": 1,
-                "timestamp": "2024-01-12T15:53:43.720808"
-            },
-            {
-                "identifier": 30006,
-                "name": "Lukas Dhont",
-                "rating": 2,
-                "timestamp": "2024-01-12T15:53:43.720808"
+                "timestamp": "2024-01-17T17:56:40.475148"
             },
             {
                 "identifier": 30005,
                 "name": "iliona",
                 "rating": 2,
-                "timestamp": "2024-01-12T15:53:43.720808"
+                "timestamp": "2024-01-17T17:56:40.476686"
             },
             {
-                "identifier": 30006,
-                "name": "Lukas Dhont",
+                "identifier": 30017,
+                "name": "David Van Reybroeck",
                 "rating": 2,
-                "timestamp": "2024-01-12T15:53:43.720808"
+                "timestamp": "2024-01-17T17:56:40.476776"
             }
         ]
     }

@@ -10,14 +10,14 @@
           "@type": "DefinedTerm",
           "name": "CONCERTS - world (musique du monde) / Musique traditionnelle",
           "termCode": "CAT01-21",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         }
       ],
       "location": {
         "@type": ["Place", "DefinedTerm"],
         "name": "Liège",
         "termCode": "LOC07",
-        "inDefinedTermSet": "https://tinyurl.com/sesam-areas"
+        "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_location.csv"
       },
       "description" : "Lieu musical animé à Liège, concerts de musique traditionnelle et du monde.",
       "url": "https://www.blues-sphere.com/WordPress/"
@@ -32,14 +32,14 @@
           "@type": "DefinedTerm",
           "name": "THÉATRE / SPECTACLES - humour / comédie",
           "termCode": "CAT02-09,",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         }
       ],
       "location": {
         "@type": ["Place", "DefinedTerm"],
         "name": "Région de Bruxelles-Capitale",
         "termCode": "LOC01",
-        "inDefinedTermSet": "https://tinyurl.com/sesam-areas"
+        "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_location.csv"
       },
       "description":"Centre dynamique pour spectacles comiques, situé à la Région de Bruxelles-Capitale.",
       "url": "https://www.jjjy.be/fr/"
@@ -54,14 +54,14 @@
           "@type": "DefinedTerm",
           "name": "CONFÉRENCES / DÉBATS - histoire / patrimoine",
           "termCode": "CAT05-14",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         }
       ],
       "location": {
         "@type": ["Place", "DefinedTerm"],
         "name": "Province du Brabant Wallon",
         "termCode": "LOC05",
-        "inDefinedTermSet": "https://tinyurl.com/sesam-areas"
+        "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_location.csv"
       },
       "description" : "Organise conférences sur l'histoire et le patrimoine, Province du Brabant Wallon.",
       "url": "https://extension.ulb.be/nos-antennes/jodoigne"
@@ -76,14 +76,14 @@
           "@type": "DefinedTerm",
           "name": "CINÉMA - projections",
           "termCode": "CAT07-02",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         }
       ],
       "location": {
         "@type": ["Place", "DefinedTerm"],
         "name": "Province du Luxembourg",
         "termCode": "LOC06",
-        "inDefinedTermSet": "https://tinyurl.com/sesam-areas"
+        "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_location.csv"
       },
       "description" : "Cinéma projetant des films, Province du Luxembourg.",
       "url": "https://www.plazahotton.be/"
@@ -98,14 +98,14 @@
           "@type": "DefinedTerm",
           "name": "CINEMA",
           "termCode": "CAT07-00",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         }
       ],
       "location": {
         "@type": ["Place", "DefinedTerm"],
         "name": "Région de Bruxelles-Capitale",
         "termCode": "LOC01",
-        "inDefinedTermSet": "https://tinyurl.com/sesam-areas"
+        "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_location.csv"
       },
       "description" : "Palais des Beaux Arts de Bruxelles",
       "url": "https://www.bozar.be/fr"
@@ -120,14 +120,14 @@
           "@type": "DefinedTerm",
           "name": "CONTES / LITTÉRATURES - divers",
           "termCode": "CAT06-04",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         }
       ],
       "location": {
         "@type": ["Place", "DefinedTerm"],
         "name": "Liège",
         "termCode": "LOC07",
-        "inDefinedTermSet": "https://tinyurl.com/sesam-areas"
+        "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_location.csv"
       },
       "description":"Librairie offrant divers contes et littératures, située à Liège.",
       "url": "https://www.toutesdirections.be/"
@@ -142,14 +142,14 @@
           "@type": "DefinedTerm",
           "name": "CONCERTS - divers",
           "termCode": "CAT01-22",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         }
       ],
       "location": {
         "@type": ["Place", "DefinedTerm"],
         "name": "Province de Liège",
         "termCode": "LOC02",
-        "inDefinedTermSet": "https://tinyurl.com/sesam-areas"
+        "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_location.csv"
       },
       "description": "Organisation proposant divers concerts, Province de Liège.",
       "url": "https://cheneeculture.be/"
@@ -164,14 +164,14 @@
           "@type": "DefinedTerm",
           "name": "THÉATRE / SPECTACLES - professionnel",
           "termCode": "CAT02-02",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         }
       ],
       "location": {
         "@type": ["Place", "DefinedTerm"],
         "name": "Province de Liège",
         "termCode": "LOC02",
-        "inDefinedTermSet": "https://tinyurl.com/sesam-areas"
+        "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_location.csv"
       },
       "description":"Centre présentant des spectacles professionnels, Province de Liège.",
       "url": "http://www.ccamay.be/"
@@ -186,14 +186,14 @@
           "@type": "DefinedTerm",
           "name": "CONCERTS",
           "termCode": "CAT01-00",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         }
       ],
       "location": {
         "@type": ["Place", "DefinedTerm"],
         "name": "Région de Bruxelles-Capitale",
         "termCode": "LOC01",
-        "inDefinedTermSet": "https://tinyurl.com/sesam-areas"
+        "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_location.csv"
       },
       "description" : "Lieu de concerts en Région de Bruxelles-Capitale.",
       "url": "https://themusicvillage.com/?lang=fr"

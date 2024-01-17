@@ -1,96 +1,64 @@
 {
-    "identifier": 772,
-    "versioning": "https://sesam.be/data_model_v0",
-    "timestamp": "2024-01-12T15:53:43.760467",
+    "identifier": 784,
+    "versioning": "https://miilucl.github.io/dcouvr/sesam_v0/profile_schema.html",
+    "timestamp": "2024-01-17T17:56:40.521221",
     "preferences": {
         "categories": [
             {
-                "name": "STAGES / COURS - art de la scène",
-                "termCode": "CAT09-01",
-                "inDefinedTermSet": "https://tinyurl.com/sesam-categories",
-                "rating": 5,
-                "timestamp": "2024-01-12T15:53:43.760467"
+                "name": "CONCERTS - revue / danse cabaret",
+                "termCode": "CAT01-17",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_categories.csv",
+                "rating": 1,
+                "timestamp": "2024-01-17T17:56:40.519227"
             }
         ],
-        "audiences": [
-            {
-                "name": "Enfants (12 ans +)",
-                "termCode": "AUD05",
-                "inDefinedTermSet": "https://tinyurl.com/sesam-audiences",
-                "rating": 2,
-                "timestamp": "2024-01-12T15:53:43.760467"
-            },
-            {
-                "name": "Enfants (0 à 6 ans)",
-                "termCode": "AUD03",
-                "inDefinedTermSet": "https://tinyurl.com/sesam-audiences",
-                "rating": 3,
-                "timestamp": "2024-01-12T15:53:43.760467"
-            },
-            {
-                "name": "Enfants (7 à 11 ans)",
-                "termCode": "AUD04",
-                "inDefinedTermSet": "https://tinyurl.com/sesam-audiences",
-                "rating": 4,
-                "timestamp": "2024-01-12T15:53:43.760467"
-            }
-        ],
+        "audiences": [],
         "areas": [
             {
-                "name": "Liège",
-                "termCode": "LOC07",
-                "inDefinedTermSet": "https://tinyurl.com/sesam-areas",
-                "rating": 1,
-                "timestamp": "2024-01-12T15:53:43.760467"
+                "name": "Dinant",
+                "termCode": "LOC18",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_location.csv",
+                "rating": 4,
+                "timestamp": "2024-01-17T17:56:40.520223"
             },
             {
-                "name": "Liège",
-                "termCode": "LOC07",
-                "inDefinedTermSet": "https://tinyurl.com/sesam-areas",
-                "rating": 5,
-                "timestamp": "2024-01-12T15:53:43.760467"
+                "name": "Mouscron",
+                "termCode": "LOC21",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_location.csv",
+                "rating": 4,
+                "timestamp": "2024-01-17T17:56:40.520223"
             }
         ],
         "culturalProducts": [
             {
-                "identifier": 10005,
-                "name": "Vos livres ont la parole !",
+                "identifier": 10003,
+                "name": "L'église Saint-Médard de Jodoigne",
                 "type": "Event",
-                "rating": 1,
-                "timestamp": "2024-01-12T15:53:43.760467"
+                "rating": 5,
+                "timestamp": "2024-01-17T17:56:40.521221"
+            },
+            {
+                "identifier": 10002,
+                "name": "Cro'Medy Club #1",
+                "type": "Event",
+                "rating": 3,
+                "timestamp": "2024-01-17T17:56:40.521221"
+            },
+            {
+                "identifier": 10006,
+                "name": "Meet the artist: Baloji",
+                "type": "Event",
+                "rating": 5,
+                "timestamp": "2024-01-17T17:56:40.521221"
             }
         ],
         "culturalOperators": [],
         "culturalCreators": [
             {
-                "identifier": 30009,
-                "name": "Charlotte De Witte",
-                "rating": 2,
-                "timestamp": "2024-01-12T15:53:43.760467"
-            },
-            {
-                "identifier": 30014,
-                "name": "Jean Van Hamme",
-                "rating": 1,
-                "timestamp": "2024-01-12T15:53:43.760467"
-            },
-            {
-                "identifier": 30010,
-                "name": "Belgian Red Flames",
+                "identifier": 30004,
+                "name": "Damso",
                 "rating": 5,
-                "timestamp": "2024-01-12T15:53:43.760467"
-            },
-            {
-                "identifier": 30007,
-                "name": "Emilie Dequenne",
-                "rating": 2,
-                "timestamp": "2024-01-12T15:53:43.760467"
-            },
-            {
-                "identifier": 30001,
-                "name": "Girls in Hawaii",
-                "rating": 5,
-                "timestamp": "2024-01-12T15:53:43.760467"
+                "timestamp": "2024-01-17T17:56:40.521221"
             }
         ]
     }

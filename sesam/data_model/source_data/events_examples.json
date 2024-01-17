@@ -10,20 +10,20 @@
           "@type": "DefinedTerm",
           "name": "CONCERTS - world (musique du monde) / Musique traditionnelle",
           "termCode": "CAT01-21",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         }
       ],
       "location": {
         "@type": ["Place", "DefinedTerm"],
         "name": "Liège",
         "termCode": "LOC07",
-        "inDefinedTermSet": "https://tinyurl.com/sesam-areas"
+        "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_location.csv"
       },
       "audience": [{
         "@type": ["Audience", "DefinedTerm"],
         "name": "Amis",
         "termCode": "AUD01",
-        "inDefinedTermSet": "https://tinyurl.com/sesam-audiences"
+        "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_audience.csv"
       }],
       "organizer": {
         "@type": "Organization",
@@ -44,26 +44,26 @@
           "@type": "DefinedTerm",
           "name": "THÉATRE / SPECTACLES - humour / comédie",
           "termCode": "CAT02-09,",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         }
       ],
       "location": {
         "@type": ["Place", "DefinedTerm"],
         "name": "Région de Bruxelles-Capitale",
         "termCode": "LOC01",
-        "inDefinedTermSet": "https://tinyurl.com/sesam-areas"
+        "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_location.csv"
       },
       "audience": [{
         "@type": ["Audience", "DefinedTerm"],
         "name": "Amis",
         "termCode": "AUD01",
-        "inDefinedTermSet": "https://tinyurl.com/sesam-audiences"
+        "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_audience.csv"
       }, 
       {
         "@type": ["Audience", "DefinedTerm"],
         "name": "Conjoint",
         "termCode": "AUD02",
-        "inDefinedTermSet": "https://tinyurl.com/sesam-audiences"
+        "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_audience.csv"
       }],
       "organizer": {
         "@type": "Organization",
@@ -84,20 +84,20 @@
           "@type": "DefinedTerm",
           "name": "CONFÉRENCES / DÉBATS - histoire / patrimoine",
           "termCode": "CAT05-14",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         }
       ],
       "location": {
         "@type": ["Place", "DefinedTerm"],
         "name": "Province du Brabant Wallon",
         "termCode": "LOC05",
-        "inDefinedTermSet": "https://tinyurl.com/sesam-areas"
+        "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_location.csv"
       },
       "audience": [{
         "@type": ["Audience", "DefinedTerm"],
         "name": "Conjoint",
         "termCode": "AUD02",
-        "inDefinedTermSet": "https://tinyurl.com/sesam-audiences"
+        "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_audience.csv"
       }],
       "organizer": {
         "@type": "Organization",
@@ -118,20 +118,20 @@
           "@type": "DefinedTerm",
           "name": "CINÉMA - projections",
           "termCode": "CAT07-02",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         }
       ],
       "location": {
         "@type": ["Place", "DefinedTerm"],
         "name": "Province du Luxembourg",
         "termCode": "LOC06",
-        "inDefinedTermSet": "https://tinyurl.com/sesam-areas"
+        "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_location.csv"
       },
       "audience": [{
         "@type": ["Audience", "DefinedTerm"],
         "name": "Etudiants",
         "termCode": "AUD06",
-        "inDefinedTermSet": "https://tinyurl.com/sesam-audiences"
+        "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_audience.csv"
       }],
       "organizer": {
         "@type": "Organization",
@@ -151,20 +151,20 @@
           "@type": "DefinedTerm",
           "name": "CONTES / LITTÉRATURES - divers",
           "termCode": "CAT06-04",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         }
       ],
       "location": {
         "@type": ["Place", "DefinedTerm"],
         "name": "Liège",
         "termCode": "LOC07",
-        "inDefinedTermSet": "https://tinyurl.com/sesam-areas"
+        "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_location.csv"
       },
       "audience": [{
         "@type": ["Audience", "DefinedTerm"],
         "name": "Seul",
         "termCode": "AUD08",
-        "inDefinedTermSet": "https://tinyurl.com/sesam-audiences"
+        "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_audience.csv"
       }],
       "organizer": {
         "@type": "Organization",
@@ -185,20 +185,20 @@
           "@type": "DefinedTerm",
           "name": "CINEMA",
           "termCode": "CAT07-00",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         }
       ],
       "location": {
         "@type": ["Place", "DefinedTerm"],
         "name": "Région de Bruxelles-Capitale",
         "termCode": "LOC01",
-        "inDefinedTermSet": "https://tinyurl.com/sesam-areas"
+        "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_location.csv"
       },
       "audience": [{
         "@type": ["Audience", "DefinedTerm"],
         "name": "Amis",
         "termCode": "AUD01",
-        "inDefinedTermSet": "https://tinyurl.com/sesam-audiences"
+        "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_audience.csv"
       }],
       "organizer": {
         "@type": "Organization",
@@ -219,20 +219,20 @@
           "@type": "DefinedTerm",
           "name": "CONCERTS - divers",
           "termCode": "CAT01-22",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         }
       ],
       "location": {
         "@type": ["Place", "DefinedTerm"],
         "name": "Province de Liège",
         "termCode": "LOC02",
-        "inDefinedTermSet": "https://tinyurl.com/sesam-areas"
+        "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_location.csv"
       },
       "audience": [{
         "@type": ["Audience", "DefinedTerm"],
         "name": "Séniors",
         "termCode": "AUD07",
-        "inDefinedTermSet": "https://tinyurl.com/sesam-audiences"
+        "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_audience.csv"
       }],
       "organizer": {
         "@type": "Organization",
@@ -253,20 +253,20 @@
           "@type": "DefinedTerm",
           "name": "THÉATRE / SPECTACLES - professionnel",
           "termCode": "CAT02-02",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         }
       ],
       "location": {
         "@type": ["Place", "DefinedTerm"],
         "name": "Province de Liège",
         "termCode": "LOC02",
-        "inDefinedTermSet": "https://tinyurl.com/sesam-areas"
+        "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_location.csv"
       },
       "audience": [{
         "@type": ["Audience", "DefinedTerm"],
         "name": "Enfants (12 ans +)",
         "termCode": "AUD05",
-        "inDefinedTermSet": "https://tinyurl.com/sesam-audiences"
+        "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_audience.csv"
       }],
       "organizer": {
         "@type": "Organization",
@@ -287,20 +287,20 @@
           "@type": "DefinedTerm",
           "name": "CONCERTS",
           "termCode": "CAT01-00",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         }
       ],
       "location": {
         "@type": ["Place", "DefinedTerm"],
         "name": "Région de Bruxelles-Capitale",
         "termCode": "LOC01",
-        "inDefinedTermSet": "https://tinyurl.com/sesam-areas"
+        "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_location.csv"
       },
       "audience": [{
         "@type": ["Audience", "DefinedTerm"],
         "name": "Conjoint",
         "termCode": "AUD02",
-        "inDefinedTermSet": "https://tinyurl.com/sesam-audiences"
+        "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_audience.csv"
       }],
       "organizer": {
         "@type": "Organization",

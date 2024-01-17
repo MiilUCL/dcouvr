@@ -11,13 +11,13 @@
           "@type": "DefinedTerm",
           "name": "CONCERTS - pop / rock / pop-rock",
           "termCode": "CAT01-15",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         },
         {
           "@type": "DefinedTerm",
           "name": "CONCERTS - indie / experimental",
           "termCode": "CAT01-12",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         }
       ]
     },
@@ -34,7 +34,7 @@
           "@type": "DefinedTerm",
           "name": "CONCERTS - chanson française",
           "termCode": "CAT01-04",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         }
       ]
     },
@@ -49,13 +49,13 @@
           "@type": "DefinedTerm",
           "name": "CONCERTS - chanson française",
           "termCode": "CAT01-04",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         },
         {
           "@type": "DefinedTerm",
           "name": "CONCERTS - pop / rock / pop-rock",
           "termCode": "CAT01-15",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         }
       ]
     },
@@ -71,7 +71,7 @@
           "@type": "DefinedTerm",
           "name": "CONCERTS - hip-hop / rap",
           "termCode": "CAT01-11",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         }
       ]
     },
@@ -86,13 +86,13 @@
           "@type": "DefinedTerm",
           "name": "CONCERTS - chanson française",
           "termCode": "CAT01-04",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         },
         {
           "@type": "DefinedTerm",
           "name": "CONCERTS - pop / rock / pop-rock",
           "termCode": "CAT01-15",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         }
       ]
     },
@@ -109,13 +109,13 @@
           "@type": "DefinedTerm",
           "name": "CINÉMA - festival",
           "termCode": "CAT07-01",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         },
         {
           "@type": "DefinedTerm",
           "name": "CINÉMA - projections",
           "termCode": "CAT07-02",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         }
       ]
     },
@@ -132,13 +132,13 @@
           "@type": "DefinedTerm",
           "name": "CINÉMA - festival",
           "termCode": "CAT07-01",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         },
         {
           "@type": "DefinedTerm",
           "name": "CINÉMA - projections",
           "termCode": "CAT07-02",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         }
       ]
     },
@@ -154,7 +154,7 @@
           "@type": "DefinedTerm",
           "name": "THÉATRE / SPECTACLES - humour / comédie",
           "termCode": "CAT02-09",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         }
       ]
     },
@@ -171,13 +171,13 @@
           "@type": "DefinedTerm",
           "name": "CONCERTS - electronique",
           "termCode": "CAT01-08",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         },
         {
           "@type": "DefinedTerm",
           "name": "SOIRÉES - techno / house",
           "termCode": "CAT10-23",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         }
       ]
     },
@@ -192,13 +192,13 @@
           "@type": "DefinedTerm",
           "name": "SPORTS - sport en extérieur",
           "termCode": "CAT15-01",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         },
         {
           "@type": "DefinedTerm",
           "name": "SPORTS - tournoi / compétition / course",
           "termCode": "CAT15-03",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         }
       ]
     },
@@ -215,13 +215,13 @@
           "@type": "DefinedTerm",
           "name": "SPORTS - sport en extérieur",
           "termCode": "CAT15-01",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         },
         {
           "@type": "DefinedTerm",
           "name": "SPORTS - tournoi / compétition / course",
           "termCode": "CAT15-03",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         }
       ]
     },
@@ -238,13 +238,13 @@
           "@type": "DefinedTerm",
           "name": "CONFÉRENCES / DÉBATS - théâtre",
           "termCode": "CAT05-10",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         },
         {
           "@type": "DefinedTerm",
           "name": "THÉATRE / SPECTACLES - professionnel",
           "termCode": "CAT02-02",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         }
       ]
     },
@@ -259,7 +259,7 @@
           "@type": "DefinedTerm",
           "name": "THÉATRE / SPECTACLES - cirque",
           "termCode": "CAT02-04",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         }
       ]
     },
@@ -276,7 +276,7 @@
           "@type": "DefinedTerm",
           "name": "EXPOS - arts graphiques",
           "termCode": "CAT03-02",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         }
       ]
     },
@@ -293,19 +293,19 @@
           "@type": "DefinedTerm",
           "name": "CONFÉRENCES / DÉBATS - actualité / economie",
           "termCode": "CAT05-01",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         },
         {
           "@type": "DefinedTerm",
           "name": "CONFÉRENCES / DÉBATS - actualité / citoyenneté",
           "termCode": "CAT05-11",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         },
         {
           "@type": "DefinedTerm",
           "name": "CONFÉRENCES / DÉBATS - environnement",
           "termCode": "CAT05-15",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         }
       ]
     },
@@ -322,7 +322,7 @@
           "@type": "DefinedTerm",
           "name": "ÉVÉNEMENTS POUR ENFANTS - musique",
           "termCode": "CAT04-06",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         }
       ]
     },
@@ -339,19 +339,19 @@
           "@type": "DefinedTerm",
           "name": "CONFÉRENCES / DÉBATS - histoire / patrimoine",
           "termCode": "CAT05-14",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         },
         {
           "@type": "DefinedTerm",
           "name": "CONFÉRENCES / DÉBATS - actualité / citoyenneté",
           "termCode": "CAT05-11",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         },
         {
           "@type": "DefinedTerm",
           "name": "CONTES / LITTÉRATURES - littérature",
           "termCode": "CAT-06-02",
-          "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
+          "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/DefinedTermSet_categories.csv"
         }
       ]
     }

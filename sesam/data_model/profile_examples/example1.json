@@ -1,70 +1,141 @@
 {
-    "identifier": 656,
-    "versioning": "https://sesam.be/data_model_v0",
-    "timestamp": "2024-01-12T15:53:43.720808",
+    "identifier": 873,
+    "versioning": "https://miilucl.github.io/dcouvr/sesam_v0/profile_schema.html",
+    "timestamp": "2024-01-17T17:56:40.470161",
     "preferences": {
-        "categories": [],
+        "categories": [
+            {
+                "name": "ÉVÉNEMENTS POUR ENFANTS - théâtre / spectacle",
+                "termCode": "CAT04-08",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_categories.csv",
+                "rating": 5,
+                "timestamp": "2024-01-17T17:56:40.459830"
+            },
+            {
+                "name": "CONCERTS - rnb",
+                "termCode": "CAT01-18",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_categories.csv",
+                "rating": 5,
+                "timestamp": "2024-01-17T17:56:40.460827"
+            },
+            {
+                "name": "STAGES / COURS - art plastique",
+                "termCode": "CAT09-02",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_categories.csv",
+                "rating": 4,
+                "timestamp": "2024-01-17T17:56:40.461825"
+            },
+            {
+                "name": "ACTIVITÉS DIVERSES",
+                "termCode": "CAT11-00",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_categories.csv",
+                "rating": 4,
+                "timestamp": "2024-01-17T17:56:40.462822"
+            },
+            {
+                "name": "STAGES / COURS - cours",
+                "termCode": "CAT09-05",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_categories.csv",
+                "rating": 5,
+                "timestamp": "2024-01-17T17:56:40.463819"
+            }
+        ],
         "audiences": [
             {
                 "name": "Conjoint",
                 "termCode": "AUD02",
-                "inDefinedTermSet": "https://tinyurl.com/sesam-audiences",
-                "rating": 5,
-                "timestamp": "2024-01-12T15:53:43.705152"
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_audience.csv",
+                "rating": 1,
+                "timestamp": "2024-01-17T17:56:40.464865"
             },
             {
-                "name": "Enfants (7 à 11 ans)",
-                "termCode": "AUD04",
-                "inDefinedTermSet": "https://tinyurl.com/sesam-audiences",
+                "name": "Etudiants",
+                "termCode": "AUD06",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_audience.csv",
+                "rating": 4,
+                "timestamp": "2024-01-17T17:56:40.465852"
+            },
+            {
+                "name": "Enfants (0 à 6 ans)",
+                "termCode": "AUD03",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_audience.csv",
                 "rating": 5,
-                "timestamp": "2024-01-12T15:53:43.705152"
+                "timestamp": "2024-01-17T17:56:40.465852"
             }
         ],
         "areas": [
             {
-                "name": "province de Hainaut",
-                "termCode": "LOC03",
-                "inDefinedTermSet": "https://tinyurl.com/sesam-areas",
-                "rating": 5,
-                "timestamp": "2024-01-12T15:53:43.705152"
+                "name": "Ath",
+                "termCode": "LOC19",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_location.csv",
+                "rating": 2,
+                "timestamp": "2024-01-17T17:56:40.467102"
             },
             {
-                "name": "Mons",
-                "termCode": "LOC12",
-                "inDefinedTermSet": "https://tinyurl.com/sesam-areas",
-                "rating": 1,
-                "timestamp": "2024-01-12T15:53:43.720808"
+                "name": "province du Brabant wallon",
+                "termCode": "LOC05",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_location.csv",
+                "rating": 3,
+                "timestamp": "2024-01-17T17:56:40.468131"
+            },
+            {
+                "name": "Marche-en-Famenne",
+                "termCode": "LOC25",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_location.csv",
+                "rating": 4,
+                "timestamp": "2024-01-17T17:56:40.469131"
             }
         ],
         "culturalProducts": [
             {
-                "identifier": 10003,
-                "name": "L'église Saint-Médard de Jodoigne",
+                "identifier": 10004,
+                "name": "Explo - Bretagne",
+                "type": "Event",
+                "rating": 2,
+                "timestamp": "2024-01-17T17:56:40.469131"
+            },
+            {
+                "identifier": 10004,
+                "name": "Explo - Bretagne",
+                "type": "Event",
+                "rating": 2,
+                "timestamp": "2024-01-17T17:56:40.469131"
+            },
+            {
+                "identifier": 10001,
+                "name": "Raios Quartet (B) musique brésilienne et portugaise",
                 "type": "Event",
                 "rating": 4,
-                "timestamp": "2024-01-12T15:53:43.720808"
-            }
-        ],
-        "culturalOperators": [
-            {
-                "identifier": 20002,
-                "name": "Maison de la Jeunesse de Woluwe-Saint-Lambert",
-                "rating": 3,
-                "timestamp": "2024-01-12T15:53:43.720808"
+                "timestamp": "2024-01-17T17:56:40.469131"
             },
             {
-                "identifier": 20003,
-                "name": "Extension ULB de Jodoigne & Environs",
-                "rating": 3,
-                "timestamp": "2024-01-12T15:53:43.720808"
-            },
-            {
-                "identifier": 20006,
-                "name": "Palais des Beaux-Arts de Bruxelles - Bozar",
-                "rating": 2,
-                "timestamp": "2024-01-12T15:53:43.720808"
+                "identifier": 10009,
+                "name": "New project : KAIS FRIHAT QUARTET",
+                "type": "Event",
+                "rating": 1,
+                "timestamp": "2024-01-17T17:56:40.470161"
             }
         ],
-        "culturalCreators": []
+        "culturalOperators": [],
+        "culturalCreators": [
+            {
+                "identifier": 30001,
+                "name": "Girls in Hawaii",
+                "rating": 4,
+                "timestamp": "2024-01-17T17:56:40.470161"
+            },
+            {
+                "identifier": 30001,
+                "name": "Girls in Hawaii",
+                "rating": 1,
+                "timestamp": "2024-01-17T17:56:40.470161"
+            },
+            {
+                "identifier": 30014,
+                "name": "Jean Van Hamme",
+                "rating": 4,
+                "timestamp": "2024-01-17T17:56:40.470161"
+            }
+        ]
     }
 }

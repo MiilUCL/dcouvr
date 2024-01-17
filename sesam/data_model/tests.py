@@ -24,9 +24,9 @@ TESTS TO RUN
 
 # GLOBAL VARIABLES
 # links to termSets on the internet 
-category_url = "https://tinyurl.com/sesam-categories"
-location_url = "https://tinyurl.com/sesam-areas"
-audience_url = "https://tinyurl.com/sesam-audiences"
+category_url = "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_categories.csv"
+location_url = "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_location.csv"
+audience_url = "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_audience.csv"
 # paths to termSets in local 
 category_termSet_path = "source_data/DefinedTermSet_categories.csv"
 audience_termSet_path = "source_data/DefinedTermSet_audience.csv"
@@ -36,7 +36,7 @@ events_examples_path = "source_data/events_examples.json"
 operators_examples_path = "source_data/operators_examples.json"
 creators_examples_path = "source_data/creators_examples.json"
 # current version to SESAM ontology (fake)
-versioning_url = "https://sesam.be/data_model_v0" 
+versioning_url = "https://miilucl.github.io/dcouvr/sesam_v0/profile_schema.html"
 
 
 def test_preference_items():
@@ -130,4 +130,6 @@ def do_all_tests():
     test_select_random()
     print("okie dokie")
 
-do_all_tests()
+#do_all_tests()
+
+generate_examples()

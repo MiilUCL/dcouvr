@@ -1,87 +1,120 @@
 {
-    "identifier": 538,
-    "versioning": "https://sesam.be/data_model_v0",
-    "timestamp": "2024-01-12T15:53:43.736431",
+    "identifier": 598,
+    "versioning": "https://miilucl.github.io/dcouvr/sesam_v0/profile_schema.html",
+    "timestamp": "2024-01-17T17:56:40.490287",
     "preferences": {
         "categories": [
             {
-                "name": "EXPOS - arts graphiques",
-                "termCode": "CAT03-02",
-                "inDefinedTermSet": "https://tinyurl.com/sesam-categories",
+                "name": "SOIRÉES - hip-hop",
+                "termCode": "CAT10-10",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_categories.csv",
+                "rating": 2,
+                "timestamp": "2024-01-17T17:56:40.480958"
+            },
+            {
+                "name": "SOIRÉES - new-wave",
+                "termCode": "CAT10-13",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_categories.csv",
                 "rating": 5,
-                "timestamp": "2024-01-12T15:53:43.736431"
+                "timestamp": "2024-01-17T17:56:40.482952"
+            },
+            {
+                "name": "SOIRÉES - retro (electronic)",
+                "termCode": "CAT10-19",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_categories.csv",
+                "rating": 1,
+                "timestamp": "2024-01-17T17:56:40.483949"
+            },
+            {
+                "name": "ESCAPADES / DÉCOUVERTES / PATRIMOINE",
+                "termCode": "CAT08-00",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_categories.csv",
+                "rating": 3,
+                "timestamp": "2024-01-17T17:56:40.484946"
             }
         ],
         "audiences": [
             {
+                "name": "Enfants (0 à 6 ans)",
+                "termCode": "AUD03",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_audience.csv",
+                "rating": 1,
+                "timestamp": "2024-01-17T17:56:40.484946"
+            },
+            {
                 "name": "Etudiants",
                 "termCode": "AUD06",
-                "inDefinedTermSet": "https://tinyurl.com/sesam-audiences",
-                "rating": 1,
-                "timestamp": "2024-01-12T15:53:43.736431"
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_audience.csv",
+                "rating": 3,
+                "timestamp": "2024-01-17T17:56:40.486226"
             },
             {
                 "name": "Enfants (12 ans +)",
                 "termCode": "AUD05",
-                "inDefinedTermSet": "https://tinyurl.com/sesam-audiences",
-                "rating": 5,
-                "timestamp": "2024-01-12T15:53:43.736431"
-            },
-            {
-                "name": "Conjoint",
-                "termCode": "AUD02",
-                "inDefinedTermSet": "https://tinyurl.com/sesam-audiences",
-                "rating": 1,
-                "timestamp": "2024-01-12T15:53:43.736431"
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_audience.csv",
+                "rating": 2,
+                "timestamp": "2024-01-17T17:56:40.486762"
             }
         ],
         "areas": [
             {
-                "name": "Charleroi",
-                "termCode": "LOC08",
-                "inDefinedTermSet": "https://tinyurl.com/sesam-areas",
+                "name": "Nivelles",
+                "termCode": "LOC09",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_location.csv",
                 "rating": 4,
-                "timestamp": "2024-01-12T15:53:43.736431"
+                "timestamp": "2024-01-17T17:56:40.487781"
             },
             {
-                "name": "province de Hainaut",
-                "termCode": "LOC03",
-                "inDefinedTermSet": "https://tinyurl.com/sesam-areas",
-                "rating": 1,
-                "timestamp": "2024-01-12T15:53:43.736431"
+                "name": "Waremme",
+                "termCode": "LOC20",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_location.csv",
+                "rating": 3,
+                "timestamp": "2024-01-17T17:56:40.489255"
+            },
+            {
+                "name": "Liège",
+                "termCode": "LOC07",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_location.csv",
+                "rating": 4,
+                "timestamp": "2024-01-17T17:56:40.490287"
             }
         ],
         "culturalProducts": [
             {
-                "identifier": 10004,
-                "name": "Explo - Bretagne",
+                "identifier": 10002,
+                "name": "Cro'Medy Club #1",
                 "type": "Event",
-                "rating": 4,
-                "timestamp": "2024-01-12T15:53:43.736431"
-            },
-            {
-                "identifier": 10007,
-                "name": "Didier Laloy Dyad & Strings Quartet ",
-                "type": "Event",
-                "rating": 5,
-                "timestamp": "2024-01-12T15:53:43.736431"
-            },
-            {
-                "identifier": 10001,
-                "name": "Raios Quartet (B) musique brésilienne et portugaise",
-                "type": "Event",
-                "rating": 4,
-                "timestamp": "2024-01-12T15:53:43.736431"
-            },
-            {
-                "identifier": 10007,
-                "name": "Didier Laloy Dyad & Strings Quartet ",
-                "type": "Event",
-                "rating": 3,
-                "timestamp": "2024-01-12T15:53:43.736431"
+                "rating": 2,
+                "timestamp": "2024-01-17T17:56:40.490287"
             }
         ],
-        "culturalOperators": [],
-        "culturalCreators": []
+        "culturalOperators": [
+            {
+                "identifier": 20002,
+                "name": "Maison de la Jeunesse de Woluwe-Saint-Lambert",
+                "rating": 2,
+                "timestamp": "2024-01-17T17:56:40.490287"
+            },
+            {
+                "identifier": 20002,
+                "name": "Maison de la Jeunesse de Woluwe-Saint-Lambert",
+                "rating": 4,
+                "timestamp": "2024-01-17T17:56:40.490287"
+            }
+        ],
+        "culturalCreators": [
+            {
+                "identifier": 30006,
+                "name": "Lukas Dhont",
+                "rating": 3,
+                "timestamp": "2024-01-17T17:56:40.490287"
+            },
+            {
+                "identifier": 30015,
+                "name": "Zakia Khattabi",
+                "rating": 5,
+                "timestamp": "2024-01-17T17:56:40.490287"
+            }
+        ]
     }
 }

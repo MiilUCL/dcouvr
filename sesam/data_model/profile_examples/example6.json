@@ -1,100 +1,125 @@
 {
-    "identifier": 643,
-    "versioning": "https://sesam.be/data_model_v0",
-    "timestamp": "2024-01-12T15:53:43.736431",
+    "identifier": 617,
+    "versioning": "https://miilucl.github.io/dcouvr/sesam_v0/profile_schema.html",
+    "timestamp": "2024-01-17T17:56:40.504059",
     "preferences": {
         "categories": [
             {
-                "name": "SOIRÉES - progressive / trance",
-                "termCode": "CAT10-15",
-                "inDefinedTermSet": "https://tinyurl.com/sesam-categories",
+                "name": "STAGES / COURS - ateliers",
+                "termCode": "CAT09-03",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_categories.csv",
+                "rating": 5,
+                "timestamp": "2024-01-17T17:56:40.498064"
+            },
+            {
+                "name": "SOIRÉES - hardstyle",
+                "termCode": "CAT10-09",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_categories.csv",
+                "rating": 2,
+                "timestamp": "2024-01-17T17:56:40.499037"
+            },
+            {
+                "name": "CINÉMA",
+                "termCode": "CAT07-00",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_categories.csv",
+                "rating": 2,
+                "timestamp": "2024-01-17T17:56:40.500043"
+            },
+            {
+                "name": "CONFÉRENCES / DÉBATS - théâtre",
+                "termCode": "CAT05-10",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_categories.csv",
                 "rating": 4,
-                "timestamp": "2024-01-12T15:53:43.736431"
+                "timestamp": "2024-01-17T17:56:40.501040"
             }
         ],
         "audiences": [
             {
-                "name": "Seul",
-                "termCode": "AUD08",
-                "inDefinedTermSet": "https://tinyurl.com/sesam-audiences",
-                "rating": 1,
-                "timestamp": "2024-01-12T15:53:43.736431"
+                "name": "Amis",
+                "termCode": "AUD01",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_audience.csv",
+                "rating": 4,
+                "timestamp": "2024-01-17T17:56:40.502038"
             }
         ],
-        "areas": [],
+        "areas": [
+            {
+                "name": "province de Luxembourg",
+                "termCode": "LOC06",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_location.csv",
+                "rating": 3,
+                "timestamp": "2024-01-17T17:56:40.502038"
+            }
+        ],
         "culturalProducts": [
+            {
+                "identifier": 10008,
+                "name": "\"Les Bonnes\" de Jean genet",
+                "type": "Event",
+                "rating": 1,
+                "timestamp": "2024-01-17T17:56:40.503063"
+            },
             {
                 "identifier": 10007,
                 "name": "Didier Laloy Dyad & Strings Quartet ",
                 "type": "Event",
                 "rating": 5,
-                "timestamp": "2024-01-12T15:53:43.736431"
+                "timestamp": "2024-01-17T17:56:40.503063"
             },
             {
-                "identifier": 10002,
-                "name": "Cro'Medy Club #1",
+                "identifier": 10007,
+                "name": "Didier Laloy Dyad & Strings Quartet ",
                 "type": "Event",
-                "rating": 1,
-                "timestamp": "2024-01-12T15:53:43.736431"
+                "rating": 5,
+                "timestamp": "2024-01-17T17:56:40.503063"
+            },
+            {
+                "identifier": 10004,
+                "name": "Explo - Bretagne",
+                "type": "Event",
+                "rating": 5,
+                "timestamp": "2024-01-17T17:56:40.503063"
+            },
+            {
+                "identifier": 10008,
+                "name": "\"Les Bonnes\" de Jean genet",
+                "type": "Event",
+                "rating": 3,
+                "timestamp": "2024-01-17T17:56:40.503063"
             }
         ],
         "culturalOperators": [
             {
-                "identifier": 20004,
-                "name": "Plaza",
-                "rating": 2,
-                "timestamp": "2024-01-12T15:53:43.736431"
-            },
-            {
-                "identifier": 20008,
-                "name": "Centre Culturel d'Amay",
-                "rating": 3,
-                "timestamp": "2024-01-12T15:53:43.736431"
+                "identifier": 20005,
+                "name": "Librairie Toutes Directions",
+                "rating": 1,
+                "timestamp": "2024-01-17T17:56:40.503063"
             },
             {
                 "identifier": 20007,
                 "name": "Centre Culturel de Chênée",
-                "rating": 1,
-                "timestamp": "2024-01-12T15:53:43.736431"
+                "rating": 3,
+                "timestamp": "2024-01-17T17:56:40.503063"
+            },
+            {
+                "identifier": 20006,
+                "name": "Palais des Beaux-Arts de Bruxelles - Bozar",
+                "rating": 3,
+                "timestamp": "2024-01-17T17:56:40.503063"
             },
             {
                 "identifier": 20002,
                 "name": "Maison de la Jeunesse de Woluwe-Saint-Lambert",
-                "rating": 3,
-                "timestamp": "2024-01-12T15:53:43.736431"
+                "rating": 1,
+                "timestamp": "2024-01-17T17:56:40.504059"
+            },
+            {
+                "identifier": 20003,
+                "name": "Extension ULB de Jodoigne & Environs",
+                "rating": 2,
+                "timestamp": "2024-01-17T17:56:40.504059"
             }
         ],
-        "culturalCreators": [
-            {
-                "identifier": 30002,
-                "name": "Jacques Brel",
-                "rating": 4,
-                "timestamp": "2024-01-12T15:53:43.736431"
-            },
-            {
-                "identifier": 30001,
-                "name": "Girls in Hawaii",
-                "rating": 4,
-                "timestamp": "2024-01-12T15:53:43.736431"
-            },
-            {
-                "identifier": 30009,
-                "name": "Charlotte De Witte",
-                "rating": 2,
-                "timestamp": "2024-01-12T15:53:43.736431"
-            },
-            {
-                "identifier": 30002,
-                "name": "Jacques Brel",
-                "rating": 4,
-                "timestamp": "2024-01-12T15:53:43.736431"
-            },
-            {
-                "identifier": 30007,
-                "name": "Emilie Dequenne",
-                "rating": 4,
-                "timestamp": "2024-01-12T15:53:43.736431"
-            }
-        ]
+        "culturalCreators": []
     }
 }

@@ -1,70 +1,81 @@
 {
-    "identifier": 685,
-    "versioning": "https://sesam.be/data_model_v0",
-    "timestamp": "2024-01-12T15:53:43.736431",
+    "identifier": 574,
+    "versioning": "https://miilucl.github.io/dcouvr/sesam_v0/profile_schema.html",
+    "timestamp": "2024-01-17T17:56:40.495787",
     "preferences": {
         "categories": [],
         "audiences": [
             {
-                "name": "Seul",
-                "termCode": "AUD08",
-                "inDefinedTermSet": "https://tinyurl.com/sesam-audiences",
+                "name": "Etudiants",
+                "termCode": "AUD06",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_audience.csv",
+                "rating": 3,
+                "timestamp": "2024-01-17T17:56:40.492304"
+            },
+            {
+                "name": "Séniors",
+                "termCode": "AUD07",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_audience.csv",
                 "rating": 5,
-                "timestamp": "2024-01-12T15:53:43.736431"
+                "timestamp": "2024-01-17T17:56:40.493279"
             }
         ],
         "areas": [
             {
-                "name": "province de Namur",
-                "termCode": "LOC04",
-                "inDefinedTermSet": "https://tinyurl.com/sesam-areas",
-                "rating": 4,
-                "timestamp": "2024-01-12T15:53:43.736431"
-            },
-            {
-                "name": "Arlon",
-                "termCode": "LOC24",
-                "inDefinedTermSet": "https://tinyurl.com/sesam-areas",
-                "rating": 5,
-                "timestamp": "2024-01-12T15:53:43.736431"
-            },
-            {
-                "name": "Nivelles",
-                "termCode": "LOC09",
-                "inDefinedTermSet": "https://tinyurl.com/sesam-areas",
+                "name": "province de Luxembourg",
+                "termCode": "LOC06",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_location.csv",
                 "rating": 1,
-                "timestamp": "2024-01-12T15:53:43.736431"
-            }
-        ],
-        "culturalProducts": [
+                "timestamp": "2024-01-17T17:56:40.494248"
+            },
             {
-                "identifier": 10009,
-                "name": "New project : KAIS FRIHAT QUARTET",
-                "type": "Event",
-                "rating": 4,
-                "timestamp": "2024-01-12T15:53:43.736431"
+                "name": "province de Luxembourg",
+                "termCode": "LOC06",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_location.csv",
+                "rating": 1,
+                "timestamp": "2024-01-17T17:56:40.495247"
             }
         ],
+        "culturalProducts": [],
         "culturalOperators": [
             {
-                "identifier": 20008,
-                "name": "Centre Culturel d'Amay",
-                "rating": 2,
-                "timestamp": "2024-01-12T15:53:43.736431"
-            },
-            {
                 "identifier": 20002,
                 "name": "Maison de la Jeunesse de Woluwe-Saint-Lambert",
                 "rating": 4,
-                "timestamp": "2024-01-12T15:53:43.736431"
-            },
-            {
-                "identifier": 20002,
-                "name": "Maison de la Jeunesse de Woluwe-Saint-Lambert",
-                "rating": 3,
-                "timestamp": "2024-01-12T15:53:43.736431"
+                "timestamp": "2024-01-17T17:56:40.495247"
             }
         ],
-        "culturalCreators": []
+        "culturalCreators": [
+            {
+                "identifier": 30012,
+                "name": "Céline Delbecq",
+                "rating": 5,
+                "timestamp": "2024-01-17T17:56:40.495787"
+            },
+            {
+                "identifier": 30007,
+                "name": "Emilie Dequenne",
+                "rating": 1,
+                "timestamp": "2024-01-17T17:56:40.495787"
+            },
+            {
+                "identifier": 30009,
+                "name": "Charlotte De Witte",
+                "rating": 5,
+                "timestamp": "2024-01-17T17:56:40.495787"
+            },
+            {
+                "identifier": 30014,
+                "name": "Jean Van Hamme",
+                "rating": 5,
+                "timestamp": "2024-01-17T17:56:40.495787"
+            },
+            {
+                "identifier": 30006,
+                "name": "Lukas Dhont",
+                "rating": 1,
+                "timestamp": "2024-01-17T17:56:40.495787"
+            }
+        ]
     }
 }
