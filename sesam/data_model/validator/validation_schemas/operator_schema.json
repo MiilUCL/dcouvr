@@ -46,13 +46,13 @@
             "$id":"validation_schemas/keywords_schema.json", 
             "$schema" : "http://json-schema.org/draft-07/schema#", 
             "title" : "Keywords",
-            "description": "keywords of an operator, expressing categories of cultural products", 
+            "description": "keywords of a creator, expressing categories of cultural products", 
             "type":"object", 
             "properties": {
-                "@type": {"type":"string"},
-                "name":{"type":"string"},
-                "termCode":{"type":"string"}, 
-                "inDefinedTermSet":{"type":"string"}
+                "@type": {"type":"string", "description": "obligatory schema.org element"},
+                "name":{"type":"string", "description": "name of the category of cultural product or content"},
+                "termCode":{"type":"string", "description": "termcode associated to category of cultural product or content"}, 
+                "inDefinedTermSet":{"type":"string", "description":"url to the termSet defining the correspondance between names and termCodes for categories of cultural products"}
             }, 
             "required":["@type","name", "termCode", "inDefinedTermSet"], 
             "additionalProperties":false
@@ -64,10 +64,10 @@
             "description":"geographical area associated to operator",
             "type":"object",
             "properties": {
-                "@type": {"type":"array", "items":{"type":"string"}},
-                "name":{"type":"string"},
-                "termCode":{"type":"string"}, 
-                "inDefinedTermSet":{"type":"string"}
+                "@type": {"type":"array", "items":{"type":"string"}, "description": "obligatory schema.org element"},
+                "name":{"type":"string", "description":"name of the geographical area"},
+                "termCode":{"type":"string", "description":"termCode associated to the geographical area"}, 
+                "inDefinedTermSet":{"type":"string", "description":"url to the termSet defining the correspondance between names and termCodes for geographical areas"}
             }, 
             "required":["@type","name", "termCode", "inDefinedTermSet"], 
             "additionalProperties":false

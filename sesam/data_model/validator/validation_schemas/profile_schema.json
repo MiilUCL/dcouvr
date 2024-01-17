@@ -94,11 +94,11 @@
             "$id" : "/validation_schemas/generic_preference_schema.json",
             "type": "object", 
             "properties": {
-                "name":{"type":"string"}, 
-                "termCode":{"type":"string"},
-                "inDefinedTermSet":{"type":"string"},
-                "rating":{"type":"integer"}, 
-                "timestamp":{"type":"string"}
+                "name":{"type":"string", "description":"name of the preference expressed"}, 
+                "termCode":{"type":"string", "description":"associated termCode"},
+                "inDefinedTermSet":{"type":"string", "description":"url to the termSet defining the correspondance between names and termcodes for this preference"},
+                "rating":{"type":"integer", "description":"rating attributed to this preference by the user, scale from 1 to 5"}, 
+                "timestamp":{"type":"string", "description":"The timestamp (datetime isoformat string) of the addition of this prefernce"}
             }, 
             "required": ["name", "termCode", "inDefinedTermSet", "rating", "timestamp"], 
             "additionalProperties": false
@@ -109,11 +109,11 @@
             "$id" : "/validation_schemas/specific_preference_schema.json",
             "type":"object", 
             "properties":{
-                "identifier":{"type":"integer"}, 
-                "name":{"type":"string"}, 
-                "rating":{"type":"integer"}, 
-                "timestamp":{"type":"string"}, 
-                "type":{"type":"string"}
+                "identifier":{"type":"integer", "description":"identfier of the item in the SESAM supporting DBs"}, 
+                "name":{"type":"string", "description": "name of the item"}, 
+                "rating":{"type":"integer", "description":"rating attributed to this preference by the user, scale from 1 to 5"}, 
+                "timestamp":{"type":"string", "description":"rating attributed to this preference by the user, scale from 1 to 5"}, 
+                "type":{"type":"string", "description":"type of the item (only applies to Cultural Products"}
             },
             "required":["identifier", "name", "rating", "timestamp"], 
             "additionalProperties": false
