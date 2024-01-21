@@ -1,76 +1,113 @@
 {
-    "identifier": 842,
-    "versioning": "https://miilucl.github.io/dcouvr/sesam_v0/profile_schema.html",
-    "timestamp": "2024-01-17T17:56:40.479958",
+    "identifier": 924,
+    "versioning": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/profile_schema.html",
+    "timestamp": "2024-01-21T18:47:34.715046",
     "preferences": {
-        "categories": [],
-        "audiences": [],
+        "categories": [
+            {
+                "name": "SPORTS - tournoi / compétition / course",
+                "termCode": "CAT15-03",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_categories.csv",
+                "rating": 2,
+                "timestamp": "2024-01-21T18:47:34.704701"
+            },
+            {
+                "name": "ÉVÉNEMENTS POUR ENFANTS - divers",
+                "termCode": "CAT04-09",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_categories.csv",
+                "rating": 5,
+                "timestamp": "2024-01-21T18:47:34.705699"
+            }
+        ],
+        "audiences": [
+            {
+                "name": "Amis",
+                "termCode": "AUD01",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_audience.csv",
+                "rating": 4,
+                "timestamp": "2024-01-21T18:47:34.710058"
+            },
+            {
+                "name": "Enfants (12 ans +)",
+                "termCode": "AUD05",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_audience.csv",
+                "rating": 4,
+                "timestamp": "2024-01-21T18:47:34.711057"
+            }
+        ],
         "areas": [
             {
-                "name": "Thuin",
-                "termCode": "LOC14",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_location.csv",
+                "name": "province de Luxembourg",
+                "termCode": "LOC06",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_location.csv",
                 "rating": 1,
-                "timestamp": "2024-01-17T17:56:40.477960"
+                "timestamp": "2024-01-21T18:47:34.713051"
+            },
+            {
+                "name": "Liège",
+                "termCode": "LOC07",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_location.csv",
+                "rating": 4,
+                "timestamp": "2024-01-21T18:47:34.713051"
             }
         ],
         "culturalProducts": [],
         "culturalOperators": [
             {
-                "identifier": 20002,
-                "name": "Maison de la Jeunesse de Woluwe-Saint-Lambert",
-                "rating": 4,
-                "timestamp": "2024-01-17T17:56:40.478965"
-            },
-            {
-                "identifier": 20003,
-                "name": "Extension ULB de Jodoigne & Environs",
-                "rating": 1,
-                "timestamp": "2024-01-17T17:56:40.478965"
-            },
-            {
-                "identifier": 20001,
-                "name": "Blues-sphere Bar",
+                "identifier": 20005,
+                "name": "Librairie Toutes Directions",
                 "rating": 2,
-                "timestamp": "2024-01-17T17:56:40.478965"
+                "timestamp": "2024-01-21T18:47:34.714049"
             },
             {
                 "identifier": 20007,
                 "name": "Centre Culturel de Chênée",
                 "rating": 4,
-                "timestamp": "2024-01-17T17:56:40.478965"
+                "timestamp": "2024-01-21T18:47:34.714049"
+            },
+            {
+                "identifier": 20001,
+                "name": "Blues-sphere Bar",
+                "rating": 4,
+                "timestamp": "2024-01-21T18:47:34.714049"
+            },
+            {
+                "identifier": 20002,
+                "name": "Maison de la Jeunesse de Woluwe-Saint-Lambert",
+                "rating": 5,
+                "timestamp": "2024-01-21T18:47:34.714049"
             }
         ],
         "culturalCreators": [
             {
-                "identifier": 30005,
-                "name": "iliona",
-                "rating": 5,
-                "timestamp": "2024-01-17T17:56:40.478965"
-            },
-            {
                 "identifier": 30014,
                 "name": "Jean Van Hamme",
+                "rating": 5,
+                "timestamp": "2024-01-21T18:47:34.714049"
+            },
+            {
+                "identifier": 30005,
+                "name": "iliona",
                 "rating": 4,
-                "timestamp": "2024-01-17T17:56:40.478965"
+                "timestamp": "2024-01-21T18:47:34.714049"
             },
             {
-                "identifier": 30008,
-                "name": "Guillermo Guiz",
+                "identifier": 30006,
+                "name": "Lukas Dhont",
                 "rating": 1,
-                "timestamp": "2024-01-17T17:56:40.478965"
+                "timestamp": "2024-01-21T18:47:34.714049"
             },
             {
-                "identifier": 30013,
-                "name": "Cirque Nicolas Bouglione",
+                "identifier": 30011,
+                "name": "Thibaut Courtois",
                 "rating": 3,
-                "timestamp": "2024-01-17T17:56:40.478965"
+                "timestamp": "2024-01-21T18:47:34.715046"
             },
             {
-                "identifier": 30010,
-                "name": "Belgian Red Flames",
-                "rating": 3,
-                "timestamp": "2024-01-17T17:56:40.479958"
+                "identifier": 30001,
+                "name": "Girls in Hawaii",
+                "rating": 1,
+                "timestamp": "2024-01-21T18:47:34.715046"
             }
         ]
     }

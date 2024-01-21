@@ -2,9 +2,9 @@ import pandas as pd
 
 # GLOBAL VARIABLES
 # links to termSets on the internet 
-category_url = "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_categories.csv"
-location_url = "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_location.csv"
-audience_url = "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_audience.csv"
+category_url = "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_categories.csv"
+location_url = "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_location.csv"
+audience_url = "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_audience.csv"
 # paths to termSets in local 
 category_termSet_path = "source_data/DefinedTermSet_categories.csv"
 audience_termSet_path = "source_data/DefinedTermSet_audience.csv"

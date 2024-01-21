@@ -1,80 +1,105 @@
 {
-    "identifier": 574,
-    "versioning": "https://miilucl.github.io/dcouvr/sesam_v0/profile_schema.html",
-    "timestamp": "2024-01-17T17:56:40.495787",
+    "identifier": 903,
+    "versioning": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/profile_schema.html",
+    "timestamp": "2024-01-21T18:47:34.731522",
     "preferences": {
-        "categories": [],
+        "categories": [
+            {
+                "name": "EXPOS - sculptures",
+                "termCode": "CAT03-10",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_categories.csv",
+                "rating": 5,
+                "timestamp": "2024-01-21T18:47:34.723510"
+            },
+            {
+                "name": "CONCERTS - blues / country / folk",
+                "termCode": "CAT01-02",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_categories.csv",
+                "rating": 1,
+                "timestamp": "2024-01-21T18:47:34.724542"
+            },
+            {
+                "name": "FÊTES / FOLKLORE - bal / thé dansant",
+                "termCode": "CAT14-01",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_categories.csv",
+                "rating": 2,
+                "timestamp": "2024-01-21T18:47:34.725535"
+            },
+            {
+                "name": "THÉATRE / SPECTACLES - danse",
+                "termCode": "CAT02-06",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_categories.csv",
+                "rating": 3,
+                "timestamp": "2024-01-21T18:47:34.726534"
+            },
+            {
+                "name": "THÉATRE / SPECTACLES - amateur",
+                "termCode": "CAT02-01",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_categories.csv",
+                "rating": 3,
+                "timestamp": "2024-01-21T18:47:34.727530"
+            }
+        ],
         "audiences": [
             {
-                "name": "Etudiants",
-                "termCode": "AUD06",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_audience.csv",
+                "name": "Seul",
+                "termCode": "AUD08",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_audience.csv",
+                "rating": 1,
+                "timestamp": "2024-01-21T18:47:34.728527"
+            },
+            {
+                "name": "Enfants (7 à 11 ans)",
+                "termCode": "AUD04",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_audience.csv",
+                "rating": 2,
+                "timestamp": "2024-01-21T18:47:34.729526"
+            },
+            {
+                "name": "Amis",
+                "termCode": "AUD01",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_audience.csv",
                 "rating": 3,
-                "timestamp": "2024-01-17T17:56:40.492304"
+                "timestamp": "2024-01-21T18:47:34.730522"
+            }
+        ],
+        "areas": [],
+        "culturalProducts": [
+            {
+                "identifier": 10009,
+                "name": "New project : KAIS FRIHAT QUARTET",
+                "type": "Event",
+                "rating": 3,
+                "timestamp": "2024-01-21T18:47:34.730522"
             },
             {
-                "name": "Séniors",
-                "termCode": "AUD07",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_audience.csv",
+                "identifier": 10003,
+                "name": "L'église Saint-Médard de Jodoigne",
+                "type": "Event",
                 "rating": 5,
-                "timestamp": "2024-01-17T17:56:40.493279"
+                "timestamp": "2024-01-21T18:47:34.730522"
             }
         ],
-        "areas": [
-            {
-                "name": "province de Luxembourg",
-                "termCode": "LOC06",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_location.csv",
-                "rating": 1,
-                "timestamp": "2024-01-17T17:56:40.494248"
-            },
-            {
-                "name": "province de Luxembourg",
-                "termCode": "LOC06",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_location.csv",
-                "rating": 1,
-                "timestamp": "2024-01-17T17:56:40.495247"
-            }
-        ],
-        "culturalProducts": [],
         "culturalOperators": [
             {
-                "identifier": 20002,
-                "name": "Maison de la Jeunesse de Woluwe-Saint-Lambert",
-                "rating": 4,
-                "timestamp": "2024-01-17T17:56:40.495247"
+                "identifier": 20005,
+                "name": "Librairie Toutes Directions",
+                "rating": 2,
+                "timestamp": "2024-01-21T18:47:34.730522"
             }
         ],
         "culturalCreators": [
             {
-                "identifier": 30012,
-                "name": "Céline Delbecq",
-                "rating": 5,
-                "timestamp": "2024-01-17T17:56:40.495787"
+                "identifier": 30002,
+                "name": "Jacques Brel",
+                "rating": 2,
+                "timestamp": "2024-01-21T18:47:34.731522"
             },
             {
-                "identifier": 30007,
-                "name": "Emilie Dequenne",
-                "rating": 1,
-                "timestamp": "2024-01-17T17:56:40.495787"
-            },
-            {
-                "identifier": 30009,
-                "name": "Charlotte De Witte",
-                "rating": 5,
-                "timestamp": "2024-01-17T17:56:40.495787"
-            },
-            {
-                "identifier": 30014,
-                "name": "Jean Van Hamme",
-                "rating": 5,
-                "timestamp": "2024-01-17T17:56:40.495787"
-            },
-            {
-                "identifier": 30006,
-                "name": "Lukas Dhont",
-                "rating": 1,
-                "timestamp": "2024-01-17T17:56:40.495787"
+                "identifier": 30003,
+                "name": "Angèle",
+                "rating": 4,
+                "timestamp": "2024-01-21T18:47:34.731522"
             }
         ]
     }

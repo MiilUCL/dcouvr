@@ -1,105 +1,105 @@
 {
-    "identifier": 517,
-    "versioning": "https://miilucl.github.io/dcouvr/sesam_v0/profile_schema.html",
-    "timestamp": "2024-01-17T17:56:40.510501",
+    "identifier": 796,
+    "versioning": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/profile_schema.html",
+    "timestamp": "2024-01-21T18:47:34.749440",
     "preferences": {
-        "categories": [],
-        "audiences": [
+        "categories": [
             {
-                "name": "Séniors",
-                "termCode": "AUD07",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_audience.csv",
-                "rating": 3,
-                "timestamp": "2024-01-17T17:56:40.506023"
+                "name": "ÉVÉNEMENTS POUR ENFANTS - lectures / contes",
+                "termCode": "CAT04-04",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_categories.csv",
+                "rating": 4,
+                "timestamp": "2024-01-21T18:47:34.740464"
             },
             {
-                "name": "Séniors",
-                "termCode": "AUD07",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_audience.csv",
-                "rating": 1,
-                "timestamp": "2024-01-17T17:56:40.507089"
+                "name": "SOIRÉES - electro  electronica / trip-hop / lounge",
+                "termCode": "CAT10-06",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_categories.csv",
+                "rating": 3,
+                "timestamp": "2024-01-21T18:47:34.741462"
+            },
+            {
+                "name": "STAGES / COURS - musique",
+                "termCode": "CAT09-06",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_categories.csv",
+                "rating": 3,
+                "timestamp": "2024-01-21T18:47:34.742459"
+            },
+            {
+                "name": "ÉVÉNEMENTS POUR ENFANTS - théâtre / spectacle",
+                "termCode": "CAT04-08",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_categories.csv",
+                "rating": 3,
+                "timestamp": "2024-01-21T18:47:34.744454"
+            }
+        ],
+        "audiences": [
+            {
+                "name": "Amis",
+                "termCode": "AUD01",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_audience.csv",
+                "rating": 5,
+                "timestamp": "2024-01-21T18:47:34.745451"
             }
         ],
         "areas": [
             {
-                "name": "Verviers",
-                "termCode": "LOC11",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_location.csv",
-                "rating": 5,
-                "timestamp": "2024-01-17T17:56:40.508236"
+                "name": "province de Namur",
+                "termCode": "LOC04",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_location.csv",
+                "rating": 4,
+                "timestamp": "2024-01-21T18:47:34.746448"
+            },
+            {
+                "name": "Dinant",
+                "termCode": "LOC18",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_location.csv",
+                "rating": 1,
+                "timestamp": "2024-01-21T18:47:34.747446"
             },
             {
                 "name": "Arlon",
                 "termCode": "LOC24",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_location.csv",
-                "rating": 5,
-                "timestamp": "2024-01-17T17:56:40.508236"
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_location.csv",
+                "rating": 1,
+                "timestamp": "2024-01-21T18:47:34.748443"
             }
         ],
         "culturalProducts": [
             {
-                "identifier": 10005,
-                "name": "Vos livres ont la parole !",
-                "type": "Event",
-                "rating": 1,
-                "timestamp": "2024-01-17T17:56:40.508236"
-            },
-            {
-                "identifier": 10009,
-                "name": "New project : KAIS FRIHAT QUARTET",
-                "type": "Event",
-                "rating": 2,
-                "timestamp": "2024-01-17T17:56:40.509505"
-            },
-            {
-                "identifier": 10008,
-                "name": "\"Les Bonnes\" de Jean genet",
+                "identifier": 10007,
+                "name": "Didier Laloy Dyad & Strings Quartet ",
                 "type": "Event",
                 "rating": 3,
-                "timestamp": "2024-01-17T17:56:40.509505"
-            },
-            {
-                "identifier": 10004,
-                "name": "Explo - Bretagne",
-                "type": "Event",
-                "rating": 2,
-                "timestamp": "2024-01-17T17:56:40.509505"
-            },
-            {
-                "identifier": 10008,
-                "name": "\"Les Bonnes\" de Jean genet",
-                "type": "Event",
-                "rating": 4,
-                "timestamp": "2024-01-17T17:56:40.509505"
+                "timestamp": "2024-01-21T18:47:34.748443"
             }
         ],
         "culturalOperators": [
             {
-                "identifier": 20004,
-                "name": "Plaza",
+                "identifier": 20006,
+                "name": "Palais des Beaux-Arts de Bruxelles - Bozar",
+                "rating": 5,
+                "timestamp": "2024-01-21T18:47:34.748443"
+            },
+            {
+                "identifier": 20002,
+                "name": "Maison de la Jeunesse de Woluwe-Saint-Lambert",
+                "rating": 2,
+                "timestamp": "2024-01-21T18:47:34.748443"
+            },
+            {
+                "identifier": 20007,
+                "name": "Centre Culturel de Chênée",
+                "rating": 1,
+                "timestamp": "2024-01-21T18:47:34.749440"
+            },
+            {
+                "identifier": 20002,
+                "name": "Maison de la Jeunesse de Woluwe-Saint-Lambert",
                 "rating": 4,
-                "timestamp": "2024-01-17T17:56:40.509505"
+                "timestamp": "2024-01-21T18:47:34.749440"
             }
         ],
-        "culturalCreators": [
-            {
-                "identifier": 30015,
-                "name": "Zakia Khattabi",
-                "rating": 4,
-                "timestamp": "2024-01-17T17:56:40.509505"
-            },
-            {
-                "identifier": 30016,
-                "name": "Jean Merveille",
-                "rating": 3,
-                "timestamp": "2024-01-17T17:56:40.509505"
-            },
-            {
-                "identifier": 30016,
-                "name": "Jean Merveille",
-                "rating": 2,
-                "timestamp": "2024-01-17T17:56:40.510501"
-            }
-        ]
+        "culturalCreators": []
     }
 }

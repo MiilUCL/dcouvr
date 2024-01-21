@@ -1,125 +1,112 @@
 {
-    "identifier": 617,
-    "versioning": "https://miilucl.github.io/dcouvr/sesam_v0/profile_schema.html",
-    "timestamp": "2024-01-17T17:56:40.504059",
+    "identifier": 535,
+    "versioning": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/profile_schema.html",
+    "timestamp": "2024-01-21T18:47:34.738502",
     "preferences": {
         "categories": [
             {
-                "name": "STAGES / COURS - ateliers",
-                "termCode": "CAT09-03",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_categories.csv",
+                "name": "SOIRÉES - retro (rock, swing)",
+                "termCode": "CAT10-18",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_categories.csv",
+                "rating": 3,
+                "timestamp": "2024-01-21T18:47:34.733514"
+            },
+            {
+                "name": "FÊTES / FOLKLORE",
+                "termCode": "CAT14-00",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_categories.csv",
                 "rating": 5,
-                "timestamp": "2024-01-17T17:56:40.498064"
+                "timestamp": "2024-01-21T18:47:34.734513"
             },
             {
-                "name": "SOIRÉES - hardstyle",
-                "termCode": "CAT10-09",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_categories.csv",
+                "name": "THÉATRE / SPECTACLES - comédie musicale",
+                "termCode": "CAT02-05",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_categories.csv",
                 "rating": 2,
-                "timestamp": "2024-01-17T17:56:40.499037"
-            },
-            {
-                "name": "CINÉMA",
-                "termCode": "CAT07-00",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_categories.csv",
-                "rating": 2,
-                "timestamp": "2024-01-17T17:56:40.500043"
-            },
-            {
-                "name": "CONFÉRENCES / DÉBATS - théâtre",
-                "termCode": "CAT05-10",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_categories.csv",
-                "rating": 4,
-                "timestamp": "2024-01-17T17:56:40.501040"
+                "timestamp": "2024-01-21T18:47:34.735509"
             }
         ],
-        "audiences": [
-            {
-                "name": "Amis",
-                "termCode": "AUD01",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_audience.csv",
-                "rating": 4,
-                "timestamp": "2024-01-17T17:56:40.502038"
-            }
-        ],
+        "audiences": [],
         "areas": [
             {
-                "name": "province de Luxembourg",
-                "termCode": "LOC06",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_location.csv",
-                "rating": 3,
-                "timestamp": "2024-01-17T17:56:40.502038"
+                "name": "La Louvière",
+                "termCode": "LOC16",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_location.csv",
+                "rating": 4,
+                "timestamp": "2024-01-21T18:47:34.736507"
+            },
+            {
+                "name": "province du Brabant wallon",
+                "termCode": "LOC05",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_location.csv",
+                "rating": 5,
+                "timestamp": "2024-01-21T18:47:34.737507"
             }
         ],
-        "culturalProducts": [
-            {
-                "identifier": 10008,
-                "name": "\"Les Bonnes\" de Jean genet",
-                "type": "Event",
-                "rating": 1,
-                "timestamp": "2024-01-17T17:56:40.503063"
-            },
-            {
-                "identifier": 10007,
-                "name": "Didier Laloy Dyad & Strings Quartet ",
-                "type": "Event",
-                "rating": 5,
-                "timestamp": "2024-01-17T17:56:40.503063"
-            },
-            {
-                "identifier": 10007,
-                "name": "Didier Laloy Dyad & Strings Quartet ",
-                "type": "Event",
-                "rating": 5,
-                "timestamp": "2024-01-17T17:56:40.503063"
-            },
-            {
-                "identifier": 10004,
-                "name": "Explo - Bretagne",
-                "type": "Event",
-                "rating": 5,
-                "timestamp": "2024-01-17T17:56:40.503063"
-            },
-            {
-                "identifier": 10008,
-                "name": "\"Les Bonnes\" de Jean genet",
-                "type": "Event",
-                "rating": 3,
-                "timestamp": "2024-01-17T17:56:40.503063"
-            }
-        ],
+        "culturalProducts": [],
         "culturalOperators": [
             {
                 "identifier": 20005,
                 "name": "Librairie Toutes Directions",
-                "rating": 1,
-                "timestamp": "2024-01-17T17:56:40.503063"
+                "rating": 4,
+                "timestamp": "2024-01-21T18:47:34.737507"
             },
             {
-                "identifier": 20007,
-                "name": "Centre Culturel de Chênée",
-                "rating": 3,
-                "timestamp": "2024-01-17T17:56:40.503063"
+                "identifier": 20004,
+                "name": "Plaza",
+                "rating": 5,
+                "timestamp": "2024-01-21T18:47:34.737507"
+            },
+            {
+                "identifier": 20008,
+                "name": "Centre Culturel d'Amay",
+                "rating": 1,
+                "timestamp": "2024-01-21T18:47:34.737507"
             },
             {
                 "identifier": 20006,
                 "name": "Palais des Beaux-Arts de Bruxelles - Bozar",
-                "rating": 3,
-                "timestamp": "2024-01-17T17:56:40.503063"
+                "rating": 5,
+                "timestamp": "2024-01-21T18:47:34.737507"
             },
             {
-                "identifier": 20002,
-                "name": "Maison de la Jeunesse de Woluwe-Saint-Lambert",
-                "rating": 1,
-                "timestamp": "2024-01-17T17:56:40.504059"
-            },
-            {
-                "identifier": 20003,
-                "name": "Extension ULB de Jodoigne & Environs",
-                "rating": 2,
-                "timestamp": "2024-01-17T17:56:40.504059"
+                "identifier": 20008,
+                "name": "Centre Culturel d'Amay",
+                "rating": 4,
+                "timestamp": "2024-01-21T18:47:34.737507"
             }
         ],
-        "culturalCreators": []
+        "culturalCreators": [
+            {
+                "identifier": 30002,
+                "name": "Jacques Brel",
+                "rating": 2,
+                "timestamp": "2024-01-21T18:47:34.737507"
+            },
+            {
+                "identifier": 30013,
+                "name": "Cirque Nicolas Bouglione",
+                "rating": 1,
+                "timestamp": "2024-01-21T18:47:34.737507"
+            },
+            {
+                "identifier": 30010,
+                "name": "Belgian Red Flames",
+                "rating": 3,
+                "timestamp": "2024-01-21T18:47:34.738502"
+            },
+            {
+                "identifier": 30007,
+                "name": "Emilie Dequenne",
+                "rating": 3,
+                "timestamp": "2024-01-21T18:47:34.738502"
+            },
+            {
+                "identifier": 30006,
+                "name": "Lukas Dhont",
+                "rating": 2,
+                "timestamp": "2024-01-21T18:47:34.738502"
+            }
+        ]
     }
 }

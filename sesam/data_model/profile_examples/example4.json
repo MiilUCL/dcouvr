@@ -1,119 +1,99 @@
 {
-    "identifier": 598,
-    "versioning": "https://miilucl.github.io/dcouvr/sesam_v0/profile_schema.html",
-    "timestamp": "2024-01-17T17:56:40.490287",
+    "identifier": 855,
+    "versioning": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/profile_schema.html",
+    "timestamp": "2024-01-21T18:47:34.721030",
     "preferences": {
         "categories": [
             {
-                "name": "SOIRÉES - hip-hop",
-                "termCode": "CAT10-10",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_categories.csv",
-                "rating": 2,
-                "timestamp": "2024-01-17T17:56:40.480958"
+                "name": "FÊTES / FOLKLORE",
+                "termCode": "CAT14-00",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_categories.csv",
+                "rating": 1,
+                "timestamp": "2024-01-21T18:47:34.717041"
             },
             {
-                "name": "SOIRÉES - new-wave",
-                "termCode": "CAT10-13",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_categories.csv",
+                "name": "CONCERTS - reggae / ragga / dub / ska",
+                "termCode": "CAT01-16",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_categories.csv",
+                "rating": 1,
+                "timestamp": "2024-01-21T18:47:34.718038"
+            },
+            {
+                "name": "MARCHÉS ET BROCANTES - marché de noël",
+                "termCode": "CAT13-05",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_categories.csv",
+                "rating": 4,
+                "timestamp": "2024-01-21T18:47:34.719035"
+            },
+            {
+                "name": "FÊTES / FOLKLORE - festivités",
+                "termCode": "CAT14-03",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_categories.csv",
                 "rating": 5,
-                "timestamp": "2024-01-17T17:56:40.482952"
-            },
-            {
-                "name": "SOIRÉES - retro (electronic)",
-                "termCode": "CAT10-19",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_categories.csv",
-                "rating": 1,
-                "timestamp": "2024-01-17T17:56:40.483949"
-            },
-            {
-                "name": "ESCAPADES / DÉCOUVERTES / PATRIMOINE",
-                "termCode": "CAT08-00",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_categories.csv",
-                "rating": 3,
-                "timestamp": "2024-01-17T17:56:40.484946"
+                "timestamp": "2024-01-21T18:47:34.720033"
             }
         ],
-        "audiences": [
-            {
-                "name": "Enfants (0 à 6 ans)",
-                "termCode": "AUD03",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_audience.csv",
-                "rating": 1,
-                "timestamp": "2024-01-17T17:56:40.484946"
-            },
-            {
-                "name": "Etudiants",
-                "termCode": "AUD06",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_audience.csv",
-                "rating": 3,
-                "timestamp": "2024-01-17T17:56:40.486226"
-            },
-            {
-                "name": "Enfants (12 ans +)",
-                "termCode": "AUD05",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_audience.csv",
-                "rating": 2,
-                "timestamp": "2024-01-17T17:56:40.486762"
-            }
-        ],
-        "areas": [
-            {
-                "name": "Nivelles",
-                "termCode": "LOC09",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_location.csv",
-                "rating": 4,
-                "timestamp": "2024-01-17T17:56:40.487781"
-            },
-            {
-                "name": "Waremme",
-                "termCode": "LOC20",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_location.csv",
-                "rating": 3,
-                "timestamp": "2024-01-17T17:56:40.489255"
-            },
-            {
-                "name": "Liège",
-                "termCode": "LOC07",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_location.csv",
-                "rating": 4,
-                "timestamp": "2024-01-17T17:56:40.490287"
-            }
-        ],
+        "audiences": [],
+        "areas": [],
         "culturalProducts": [
             {
                 "identifier": 10002,
                 "name": "Cro'Medy Club #1",
                 "type": "Event",
                 "rating": 2,
-                "timestamp": "2024-01-17T17:56:40.490287"
+                "timestamp": "2024-01-21T18:47:34.720033"
             }
         ],
         "culturalOperators": [
             {
-                "identifier": 20002,
-                "name": "Maison de la Jeunesse de Woluwe-Saint-Lambert",
-                "rating": 2,
-                "timestamp": "2024-01-17T17:56:40.490287"
+                "identifier": 20004,
+                "name": "Plaza",
+                "rating": 1,
+                "timestamp": "2024-01-21T18:47:34.720033"
             },
             {
-                "identifier": 20002,
-                "name": "Maison de la Jeunesse de Woluwe-Saint-Lambert",
+                "identifier": 20005,
+                "name": "Librairie Toutes Directions",
+                "rating": 3,
+                "timestamp": "2024-01-21T18:47:34.720033"
+            },
+            {
+                "identifier": 20009,
+                "name": "The Music Village",
                 "rating": 4,
-                "timestamp": "2024-01-17T17:56:40.490287"
+                "timestamp": "2024-01-21T18:47:34.720033"
+            },
+            {
+                "identifier": 20001,
+                "name": "Blues-sphere Bar",
+                "rating": 4,
+                "timestamp": "2024-01-21T18:47:34.721030"
             }
         ],
         "culturalCreators": [
             {
-                "identifier": 30006,
-                "name": "Lukas Dhont",
-                "rating": 3,
-                "timestamp": "2024-01-17T17:56:40.490287"
+                "identifier": 30001,
+                "name": "Girls in Hawaii",
+                "rating": 2,
+                "timestamp": "2024-01-21T18:47:34.721030"
             },
             {
-                "identifier": 30015,
-                "name": "Zakia Khattabi",
+                "identifier": 30002,
+                "name": "Jacques Brel",
                 "rating": 5,
-                "timestamp": "2024-01-17T17:56:40.490287"
+                "timestamp": "2024-01-21T18:47:34.721030"
+            },
+            {
+                "identifier": 30016,
+                "name": "Jean Merveille",
+                "rating": 3,
+                "timestamp": "2024-01-21T18:47:34.721030"
+            },
+            {
+                "identifier": 30004,
+                "name": "Damso",
+                "rating": 1,
+                "timestamp": "2024-01-21T18:47:34.721030"
             }
         ]
     }

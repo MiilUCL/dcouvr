@@ -1,121 +1,87 @@
 {
-    "identifier": 637,
-    "versioning": "https://miilucl.github.io/dcouvr/sesam_v0/profile_schema.html",
-    "timestamp": "2024-01-17T17:56:40.476776",
+    "identifier": 644,
+    "versioning": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/profile_schema.html",
+    "timestamp": "2024-01-21T18:47:34.702328",
     "preferences": {
         "categories": [
             {
-                "name": "CONCERTS - festival",
-                "termCode": "CAT01-10",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_categories.csv",
-                "rating": 1,
-                "timestamp": "2024-01-17T17:56:40.472197"
-            }
-        ],
-        "audiences": [
-            {
-                "name": "Séniors",
-                "termCode": "AUD07",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_audience.csv",
-                "rating": 1,
-                "timestamp": "2024-01-17T17:56:40.473154"
+                "name": "CONCERTS - electronique",
+                "termCode": "CAT01-08",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_categories.csv",
+                "rating": 5,
+                "timestamp": "2024-01-21T18:47:34.693485"
             },
             {
-                "name": "Enfants (0 à 6 ans)",
-                "termCode": "AUD03",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_audience.csv",
-                "rating": 5,
-                "timestamp": "2024-01-17T17:56:40.474150"
+                "name": "SOIRÉES - latino (salsa)",
+                "termCode": "CAT10-12",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_categories.csv",
+                "rating": 1,
+                "timestamp": "2024-01-21T18:47:34.694482"
             }
         ],
+        "audiences": [],
         "areas": [
             {
-                "name": "Nivelles",
-                "termCode": "LOC09",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_location.csv",
-                "rating": 4,
-                "timestamp": "2024-01-17T17:56:40.475148"
+                "name": "Soignies",
+                "termCode": "LOC13",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_location.csv",
+                "rating": 5,
+                "timestamp": "2024-01-21T18:47:34.695479"
             }
         ],
         "culturalProducts": [
-            {
-                "identifier": 10008,
-                "name": "\"Les Bonnes\" de Jean genet",
-                "type": "Event",
-                "rating": 5,
-                "timestamp": "2024-01-17T17:56:40.475148"
-            },
             {
                 "identifier": 10003,
                 "name": "L'église Saint-Médard de Jodoigne",
                 "type": "Event",
                 "rating": 2,
-                "timestamp": "2024-01-17T17:56:40.475148"
-            },
-            {
-                "identifier": 10004,
-                "name": "Explo - Bretagne",
-                "type": "Event",
-                "rating": 3,
-                "timestamp": "2024-01-17T17:56:40.475148"
+                "timestamp": "2024-01-21T18:47:34.695479"
             }
         ],
         "culturalOperators": [
             {
-                "identifier": 20002,
-                "name": "Maison de la Jeunesse de Woluwe-Saint-Lambert",
-                "rating": 2,
-                "timestamp": "2024-01-17T17:56:40.475148"
-            },
-            {
                 "identifier": 20003,
                 "name": "Extension ULB de Jodoigne & Environs",
-                "rating": 3,
-                "timestamp": "2024-01-17T17:56:40.475148"
-            },
-            {
-                "identifier": 20006,
-                "name": "Palais des Beaux-Arts de Bruxelles - Bozar",
-                "rating": 1,
-                "timestamp": "2024-01-17T17:56:40.475148"
-            },
-            {
-                "identifier": 20003,
-                "name": "Extension ULB de Jodoigne & Environs",
-                "rating": 3,
-                "timestamp": "2024-01-17T17:56:40.475148"
-            },
-            {
-                "identifier": 20008,
-                "name": "Centre Culturel d'Amay",
                 "rating": 5,
-                "timestamp": "2024-01-17T17:56:40.475148"
+                "timestamp": "2024-01-21T18:47:34.695479"
+            },
+            {
+                "identifier": 20004,
+                "name": "Plaza",
+                "rating": 2,
+                "timestamp": "2024-01-21T18:47:34.695479"
+            },
+            {
+                "identifier": 20009,
+                "name": "The Music Village",
+                "rating": 3,
+                "timestamp": "2024-01-21T18:47:34.695479"
+            },
+            {
+                "identifier": 20003,
+                "name": "Extension ULB de Jodoigne & Environs",
+                "rating": 5,
+                "timestamp": "2024-01-21T18:47:34.695479"
+            },
+            {
+                "identifier": 20005,
+                "name": "Librairie Toutes Directions",
+                "rating": 4,
+                "timestamp": "2024-01-21T18:47:34.695479"
             }
         ],
         "culturalCreators": [
             {
-                "identifier": 30001,
-                "name": "Girls in Hawaii",
-                "rating": 3,
-                "timestamp": "2024-01-17T17:56:40.475148"
-            },
-            {
                 "identifier": 30002,
                 "name": "Jacques Brel",
-                "rating": 1,
-                "timestamp": "2024-01-17T17:56:40.475148"
+                "rating": 2,
+                "timestamp": "2024-01-21T18:47:34.702328"
             },
             {
-                "identifier": 30005,
-                "name": "iliona",
+                "identifier": 30016,
+                "name": "Jean Merveille",
                 "rating": 2,
-                "timestamp": "2024-01-17T17:56:40.476686"
-            },
-            {
-                "identifier": 30017,
-                "name": "David Van Reybroeck",
-                "rating": 2,
-                "timestamp": "2024-01-17T17:56:40.476776"
+                "timestamp": "2024-01-21T18:47:34.702328"
             }
         ]
     }

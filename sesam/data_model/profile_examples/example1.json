@@ -1,89 +1,39 @@
 {
-    "identifier": 873,
-    "versioning": "https://miilucl.github.io/dcouvr/sesam_v0/profile_schema.html",
-    "timestamp": "2024-01-17T17:56:40.470161",
+    "identifier": 641,
+    "versioning": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/profile_schema.html",
+    "timestamp": "2024-01-21T18:47:34.690491",
     "preferences": {
         "categories": [
             {
-                "name": "ÉVÉNEMENTS POUR ENFANTS - théâtre / spectacle",
-                "termCode": "CAT04-08",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_categories.csv",
-                "rating": 5,
-                "timestamp": "2024-01-17T17:56:40.459830"
-            },
-            {
-                "name": "CONCERTS - rnb",
-                "termCode": "CAT01-18",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_categories.csv",
-                "rating": 5,
-                "timestamp": "2024-01-17T17:56:40.460827"
-            },
-            {
-                "name": "STAGES / COURS - art plastique",
-                "termCode": "CAT09-02",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_categories.csv",
-                "rating": 4,
-                "timestamp": "2024-01-17T17:56:40.461825"
-            },
-            {
-                "name": "ACTIVITÉS DIVERSES",
-                "termCode": "CAT11-00",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_categories.csv",
-                "rating": 4,
-                "timestamp": "2024-01-17T17:56:40.462822"
-            },
-            {
-                "name": "STAGES / COURS - cours",
-                "termCode": "CAT09-05",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_categories.csv",
-                "rating": 5,
-                "timestamp": "2024-01-17T17:56:40.463819"
+                "name": "THÉATRE / SPECTACLES - professionnel",
+                "termCode": "CAT02-02",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_categories.csv",
+                "rating": 2,
+                "timestamp": "2024-01-21T18:47:34.672280"
             }
         ],
-        "audiences": [
-            {
-                "name": "Conjoint",
-                "termCode": "AUD02",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_audience.csv",
-                "rating": 1,
-                "timestamp": "2024-01-17T17:56:40.464865"
-            },
-            {
-                "name": "Etudiants",
-                "termCode": "AUD06",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_audience.csv",
-                "rating": 4,
-                "timestamp": "2024-01-17T17:56:40.465852"
-            },
-            {
-                "name": "Enfants (0 à 6 ans)",
-                "termCode": "AUD03",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_audience.csv",
-                "rating": 5,
-                "timestamp": "2024-01-17T17:56:40.465852"
-            }
-        ],
+        "audiences": [],
         "areas": [
             {
-                "name": "Ath",
-                "termCode": "LOC19",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_location.csv",
-                "rating": 2,
-                "timestamp": "2024-01-17T17:56:40.467102"
-            },
-            {
-                "name": "province du Brabant wallon",
-                "termCode": "LOC05",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_location.csv",
+                "name": "Philippeville",
+                "termCode": "LOC22",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_location.csv",
                 "rating": 3,
-                "timestamp": "2024-01-17T17:56:40.468131"
+                "timestamp": "2024-01-21T18:47:34.677068"
             },
             {
-                "name": "Marche-en-Famenne",
-                "termCode": "LOC25",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_location.csv",
+                "name": "Tournai",
+                "termCode": "LOC15",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_location.csv",
+                "rating": 1,
+                "timestamp": "2024-01-21T18:47:34.678065"
+            },
+            {
+                "name": "Province de Liège",
+                "termCode": "LOC02",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_location.csv",
                 "rating": 4,
-                "timestamp": "2024-01-17T17:56:40.469131"
+                "timestamp": "2024-01-21T18:47:34.679062"
             }
         ],
         "culturalProducts": [
@@ -91,51 +41,70 @@
                 "identifier": 10004,
                 "name": "Explo - Bretagne",
                 "type": "Event",
-                "rating": 2,
-                "timestamp": "2024-01-17T17:56:40.469131"
+                "rating": 3,
+                "timestamp": "2024-01-21T18:47:34.684081"
+            },
+            {
+                "identifier": 10008,
+                "name": "\"Les Bonnes\" de Jean genet",
+                "type": "Event",
+                "rating": 5,
+                "timestamp": "2024-01-21T18:47:34.684081"
+            },
+            {
+                "identifier": 10005,
+                "name": "Vos livres ont la parole !",
+                "type": "Event",
+                "rating": 1,
+                "timestamp": "2024-01-21T18:47:34.685046"
             },
             {
                 "identifier": 10004,
                 "name": "Explo - Bretagne",
                 "type": "Event",
-                "rating": 2,
-                "timestamp": "2024-01-17T17:56:40.469131"
+                "rating": 3,
+                "timestamp": "2024-01-21T18:47:34.685046"
             },
             {
-                "identifier": 10001,
-                "name": "Raios Quartet (B) musique brésilienne et portugaise",
+                "identifier": 10003,
+                "name": "L'église Saint-Médard de Jodoigne",
                 "type": "Event",
-                "rating": 4,
-                "timestamp": "2024-01-17T17:56:40.469131"
-            },
-            {
-                "identifier": 10009,
-                "name": "New project : KAIS FRIHAT QUARTET",
-                "type": "Event",
-                "rating": 1,
-                "timestamp": "2024-01-17T17:56:40.470161"
+                "rating": 3,
+                "timestamp": "2024-01-21T18:47:34.685046"
             }
         ],
-        "culturalOperators": [],
-        "culturalCreators": [
+        "culturalOperators": [
             {
-                "identifier": 30001,
-                "name": "Girls in Hawaii",
-                "rating": 4,
-                "timestamp": "2024-01-17T17:56:40.470161"
+                "identifier": 20005,
+                "name": "Librairie Toutes Directions",
+                "rating": 3,
+                "timestamp": "2024-01-21T18:47:34.690491"
             },
             {
-                "identifier": 30001,
-                "name": "Girls in Hawaii",
-                "rating": 1,
-                "timestamp": "2024-01-17T17:56:40.470161"
+                "identifier": 20005,
+                "name": "Librairie Toutes Directions",
+                "rating": 2,
+                "timestamp": "2024-01-21T18:47:34.690491"
             },
             {
-                "identifier": 30014,
-                "name": "Jean Van Hamme",
-                "rating": 4,
-                "timestamp": "2024-01-17T17:56:40.470161"
+                "identifier": 20004,
+                "name": "Plaza",
+                "rating": 2,
+                "timestamp": "2024-01-21T18:47:34.690491"
+            },
+            {
+                "identifier": 20007,
+                "name": "Centre Culturel de Chênée",
+                "rating": 5,
+                "timestamp": "2024-01-21T18:47:34.690491"
+            },
+            {
+                "identifier": 20004,
+                "name": "Plaza",
+                "rating": 5,
+                "timestamp": "2024-01-21T18:47:34.690491"
             }
-        ]
+        ],
+        "culturalCreators": []
     }
 }

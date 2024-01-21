@@ -1,32 +1,39 @@
 {
-    "identifier": 784,
-    "versioning": "https://miilucl.github.io/dcouvr/sesam_v0/profile_schema.html",
-    "timestamp": "2024-01-17T17:56:40.521221",
+    "identifier": 846,
+    "versioning": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/profile_schema.html",
+    "timestamp": "2024-01-21T18:47:34.759852",
     "preferences": {
-        "categories": [
+        "categories": [],
+        "audiences": [
             {
-                "name": "CONCERTS - revue / danse cabaret",
-                "termCode": "CAT01-17",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_categories.csv",
-                "rating": 1,
-                "timestamp": "2024-01-17T17:56:40.519227"
-            }
-        ],
-        "audiences": [],
-        "areas": [
-            {
-                "name": "Dinant",
-                "termCode": "LOC18",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_location.csv",
-                "rating": 4,
-                "timestamp": "2024-01-17T17:56:40.520223"
+                "name": "Séniors",
+                "termCode": "AUD07",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_audience.csv",
+                "rating": 5,
+                "timestamp": "2024-01-21T18:47:34.755863"
             },
             {
-                "name": "Mouscron",
-                "termCode": "LOC21",
-                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam_v0/termSets/DefinedTermSet_location.csv",
-                "rating": 4,
-                "timestamp": "2024-01-17T17:56:40.520223"
+                "name": "Séniors",
+                "termCode": "AUD07",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_audience.csv",
+                "rating": 1,
+                "timestamp": "2024-01-21T18:47:34.756860"
+            },
+            {
+                "name": "Enfants (0 à 6 ans)",
+                "termCode": "AUD03",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_audience.csv",
+                "rating": 2,
+                "timestamp": "2024-01-21T18:47:34.757857"
+            }
+        ],
+        "areas": [
+            {
+                "name": "Philippeville",
+                "termCode": "LOC22",
+                "inDefinedTermSet": "https://miilucl.github.io/dcouvr/sesam/sesam_v0/termSets/DefinedTermSet_location.csv",
+                "rating": 5,
+                "timestamp": "2024-01-21T18:47:34.758855"
             }
         ],
         "culturalProducts": [
@@ -34,31 +41,56 @@
                 "identifier": 10003,
                 "name": "L'église Saint-Médard de Jodoigne",
                 "type": "Event",
-                "rating": 5,
-                "timestamp": "2024-01-17T17:56:40.521221"
-            },
-            {
-                "identifier": 10002,
-                "name": "Cro'Medy Club #1",
-                "type": "Event",
-                "rating": 3,
-                "timestamp": "2024-01-17T17:56:40.521221"
+                "rating": 4,
+                "timestamp": "2024-01-21T18:47:34.758855"
             },
             {
                 "identifier": 10006,
                 "name": "Meet the artist: Baloji",
                 "type": "Event",
-                "rating": 5,
-                "timestamp": "2024-01-17T17:56:40.521221"
+                "rating": 2,
+                "timestamp": "2024-01-21T18:47:34.758855"
+            },
+            {
+                "identifier": 10008,
+                "name": "\"Les Bonnes\" de Jean genet",
+                "type": "Event",
+                "rating": 4,
+                "timestamp": "2024-01-21T18:47:34.758855"
             }
         ],
-        "culturalOperators": [],
+        "culturalOperators": [
+            {
+                "identifier": 20008,
+                "name": "Centre Culturel d'Amay",
+                "rating": 2,
+                "timestamp": "2024-01-21T18:47:34.758855"
+            }
+        ],
         "culturalCreators": [
+            {
+                "identifier": 30002,
+                "name": "Jacques Brel",
+                "rating": 4,
+                "timestamp": "2024-01-21T18:47:34.759852"
+            },
+            {
+                "identifier": 30003,
+                "name": "Angèle",
+                "rating": 1,
+                "timestamp": "2024-01-21T18:47:34.759852"
+            },
+            {
+                "identifier": 30012,
+                "name": "Céline Delbecq",
+                "rating": 1,
+                "timestamp": "2024-01-21T18:47:34.759852"
+            },
             {
                 "identifier": 30004,
                 "name": "Damso",
                 "rating": 5,
-                "timestamp": "2024-01-17T17:56:40.521221"
+                "timestamp": "2024-01-21T18:47:34.759852"
             }
         ]
     }
