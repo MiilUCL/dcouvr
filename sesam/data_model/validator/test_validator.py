@@ -36,7 +36,7 @@ test_profile = {
     "areas": [
       {
         "name": "Soignies",
-        "termCode": "LOC13",
+        "termCode": "t",
         "inDefinedTermSet": "https://tinyurl.com/sesam-areas",
         "rating": 1,
         "timestamp": "2023-12-06T16:43:05.220335"
@@ -93,19 +93,20 @@ test_creator = {
 test_event = {
       "@context":"https://schema.org",
       "identifier": 10001,
+      "@type":"Event",
       "name": "Raios Quartet (B) musique brésilienne et portugaise",
       "keywords": [
         {
           "@type": "DefinedTerm",
           "name": "CONCERTS - world (musique du monde) / Musique traditionnelle",
-          "termCode": "CAT01-21",
+          "termCode": "pepe",
           "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
         }
       ],
       "location": {
         "@type": ["Place", "DefinedTerm"],
         "name": "Liège",
-        "termCode": "LOC07",
+        "termCode": "blip",
         "inDefinedTermSet": "https://tinyurl.com/sesam-areas"
       },
       "organizer": {
@@ -129,7 +130,7 @@ test_operator = {
         {
           "@type": "DefinedTerm",
           "name": "CONCERTS - world (musique du monde) / Musique traditionnelle",
-          "termCode": "CAT01-21",
+          "termCode": "noss",
           "inDefinedTermSet": "https://tinyurl.com/sesam-categories"
         }
       ],
@@ -144,7 +145,9 @@ test_operator = {
     }
 
 
-with open("../source_data/creators_examples.json", "r", encoding="utf-8") as f_creators: 
-    creators = json.load(f_creators)
-for c in creators["creators"]:
-  __main__(c)
+#with open("../source_data/events_examples.json", "r", encoding="utf-8") as f_events: 
+#    creators = json.load(f_events)
+#for c in creators["events"]:
+#  __main__(c)
+
+__main__(test_event)
