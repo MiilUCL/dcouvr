@@ -4,19 +4,20 @@
 
 Dans le cadre du WP2 - Technologie, un modèle de données et une ontologie ont été développées pour décrire les profils de préférences culturelles des utilisateurs SESAM et pour représenter les différents types de données qui seront stockées dans les différentes bases de données gérées par SESAM.
 
-Une description détaillée du modèle de données SESAM peut être consultée à ce *lien* et le dossier [*data_model/documentation/diagrammes*](data_model/documentation/diagrammes/) contient des schémas de classes permettant d'avoir un aperçu du modèle de données. Ces schémas sont visibles au format .png et .svg et les versions au format .xml peuvent être ouvertes et modifiées dans [draw.io](*https://app.diagrams.net/*).
+Le dossier [*../docs/sesam/sesam_v0/diagrammes*](../docs/sesam/sesam_v0/diagrammes) contient des schémas de classes permettant d'avoir un aperçu du modèle de données. Ces schémas sont visibles au format .png et .svg et les versions au format .xml peuvent être ouvertes et modifiées dans [draw.io](*https://app.diagrams.net/*).
 
-Des versions interactives des objets définis par le modèle de données peuvent également être consultées dans le dossier [*data_model/documentation/structures*](data_model/documentation/structures/).
+En ouvrant les fichiers .html dans un navigateur internet, des versions interactives des objets définis par le modèle de données peuvent également être consultées dans le dossier [*../docs/sesam/sesam_v0*](../docs/sesam/sesam_v0).
 
-Le type d'objet qui représente un profil de préférences est `Profile` qui contient un objet `Preferences`. Ces deux classes sont définies dans le fichier `profile.py`. `Preferences` contient des listes d'objets de différents types, qui sont des sous-classes de `Preference_Item`. La classe `Preference_Item` ainsi que ses six sous-classes sont définis dans le fichier `preference_item.py`.
+Le type d'objet qui représente un profil de préférences est `Profile` qui contient un objet `Preferences`. Ces deux classes d'objets sont définies au format *jsonschema* dans le fichier [*../docs/sesam/sesam_v0/jsonschema/profile_schema.json*](../docs/sesam/sesam_v0/jsonschema/profile_schema.json). `Preferences` contient des listes d'objets de différents types, qui sont des sous-classes de `Preference_Item`. La classe `Preference_Item` ainsi que ses six sous-classes sont également définis au format *jsonschema* dans le fichier [*profile_schema.json*](../docs/sesam/sesam_v0/jsonschema/profile_schema.json).
 
-Les autres types d'objets hébergés par les bases de données SESAM sont définis par les classes `Event`, `Operator` et `Creator` dans le fichier `db_SESAM_objects.py`. Ces classes décrivent des objets de manière conforme aux schémas de données du projet [https://schema.org](schema.org). 
+Les autres types d'objets hébergés par les bases de données SESAM sont définis par les classes `Event`, `Operator` et `Creator`. Ces classes sont définies au format *jsonschema*  dans les fichier [*../docs/sesam/sesam_v0/jsonschema/event_schema.json*](../docs/sesam/sesam_v0/jsonschema/event_schema.json), [*../docs/sesam/sesam_v0/jsonschema/operator_schema.json*](../docs/sesam/sesam_v0/jsonschema/operator_schema.json) et [*../docs/sesam/sesam_v0/jsonschema/creator_schema.json*](../docs/sesam/sesam_v0/jsonschema/creator_schema.json) respectivement et décrivent des objets de manière conforme aux schémas de données du projet [https://schema.org](schema.org). 
 
-Chacune des classes ci-dessus implémente une fonction permettant d'exporter les instances au format .json. 
 
 **Génération d'un profil utilisateur aléatoire**
 
-La fonction `Profile.generate_random()` permet de générer un profil utilisateur conforme à l'ontologie en sélectionnant aléatoirement des préférences culturelles parmi les répertoires d'exemples du dossier [*data_model/data/*](data_model/source_data/). 
+Tous les objets introduits ci-dessus peuvent également être construits, générés aléatoirement et manipulés en utilisant les classes et fonctions définies dans les fichiers `profiles.py`, `preference_item.py` et `schema_objects.py`. Chacune des classes implémente notamment une fonction permettant d'exporter les instances créées au format .json. 
+
+La fonction `Profile.generate_random()` permet de générer un profil utilisateur conforme à l'ontologie en sélectionnant aléatoirement des préférences culturelles parmi les répertoires d'exemples du dossier [*data_model/source_data/*](data_model/source_data/). 
 
 Les arguments à passer à la fonction correspondent au nombre d'items de préférences à associer à chaque propriété du profil de préférence. 
 Un profil peut être obtenu et exporté au format .json de la manière suivante : 
