@@ -6,7 +6,7 @@ Dans le cadre du WP2 - Technologie, un modèle de données et une ontologie ont 
 
 Le dossier [*../docs/sesam/sesam_v0/diagrammes*](../docs/sesam/sesam_v0/diagrammes) contient des schémas de classes permettant d'avoir un aperçu du modèle de données. Ces schémas sont visibles au format .png et .svg et les versions au format .xml peuvent être ouvertes et modifiées dans [draw.io](*https://app.diagrams.net/*).
 
-En ouvrant les fichiers .html dans un navigateur internet, des versions interactives des objets définis par le modèle de données peuvent également être consultées dans le dossier [*../docs/sesam/sesam_v0*](../docs/sesam/sesam_v0).
+En ouvrant les fichiers .html dans un navigateur internet, des versions interactives des objets définis par le modèle de données peuvent également être consultées dans le dossier [*../docs/sesam/sesam_v0/interactive_visualization*](../docs/sesam/sesam_v0/interactive_visualization/).
 
 Le type d'objet qui représente un profil de préférences est `Profile` qui contient un objet `Preferences`. Ces deux classes d'objets sont définies au format *jsonschema* dans le fichier [*../docs/sesam/sesam_v0/jsonschema/profile_schema.json*](../docs/sesam/sesam_v0/jsonschema/profile_schema.json). `Preferences` contient des listes d'objets de différents types, qui sont des sous-classes de `Preference_Item`. La classe `Preference_Item` ainsi que ses six sous-classes sont également définis au format *jsonschema* dans le fichier [*profile_schema.json*](../docs/sesam/sesam_v0/jsonschema/profile_schema.json).
 
