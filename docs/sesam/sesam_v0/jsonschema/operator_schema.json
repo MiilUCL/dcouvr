@@ -1,0 +1,76 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#", 
+    "$id": "https://sesam.be/validation_schemas/operator_schema.json", 
+    "title":"Operator", 
+    "description": "schema.org compliant description of a cultural operator", 
+    "type":"object", 
+    "properties" : {
+        "@context": {
+            "description": "obligatory schema.org element", 
+            "type":"string"
+        }, 
+        "@type": {
+            "description": "obligatory schema.org element", 
+            "type":"string"
+        }, 
+        "identifier":{
+            "description" : "identifier of operator object in SESAM database", 
+            "type":"integer"
+        }, 
+        "name":{
+            "description": "the name of the operator",
+            "type":"string"
+        }, 
+        "keywords":{
+            "description": "associated categories of cultural content", 
+            "type":"array", 
+            "items": {
+                "type": "object", 
+                "$ref": "#/$defs/keyword"
+            }
+        }, 
+        "location":{
+            "description": "associated geographical area", 
+            "type":"object", 
+            "$ref": "#/$defs/place"
+        }, 
+        "url":{
+            "description": "link to Operator webpage",
+            "type":"string"
+        }
+    }, 
+    "required": ["@type","identifier", "name"], 
+
+    "$defs" : {
+        "keyword" : {
+            "$id":"validation_schemas/keywords_schema.json", 
+            "$schema" : "http://json-schema.org/draft-07/schema#", 
+            "title" : "Keywords",
+            "description": "keywords of a creator, expressing categories of cultural products", 
+            "type":"object", 
+            "properties": {
+                "@type": {"type":"string", "description": "obligatory schema.org element"},
+                "name":{"type":"string", "description": "name of the category of cultural product or content"},
+                "termCode":{"type":"string", "description": "termcode associated to category of cultural product or content", "enum":["CAT01-01","CAT01-02","CAT01-03","CAT01-04","CAT01-05","CAT01-06","CAT01-07","CAT01-08","CAT01-09","CAT01-10","CAT01-11","CAT01-12","CAT01-13","CAT01-14","CAT01-15","CAT01-16","CAT01-17","CAT01-18","CAT01-19","CAT01-20","CAT01-21","CAT01-22","CAT01-00","CAT02-01","CAT02-02","CAT02-03","CAT02-04","CAT02-05","CAT02-06","CAT02-07","CAT02-08","CAT02-09","CAT02-10","CAT02-11","CAT02-12","CAT02-13","CAT02-14","CAT02-15","CAT02-00","CAT03-01","CAT03-02","CAT03-03","CAT03-04","CAT03-05","CAT03-06","CAT03-07","CAT03-08","CAT03-09","CAT03-10","CAT03-11","CAT03-12","CAT03-13","CAT03-00","CAT04-01","CAT04-02","CAT04-03","CAT04-04","CAT04-05","CAT04-06","CAT04-07","CAT04-08","CAT04-09","CAT04-00","CAT05-01","CAT05-02","CAT05-03","CAT05-04","CAT05-05","CAT05-06","CAT05-07","CAT05-08","CAT05-09","CAT05-10","CAT05-11","CAT05-12","CAT05-13","CAT05-14","CAT05-15","CAT05-16","CAT05-00","CAT06-01","CAT06-02","CAT06-03","CAT06-04","CAT06-00","CAT07-01","CAT07-02","CAT07-00","CAT08-01","CAT08-02","CAT08-03","CAT08-04","CAT08-05","CAT08-06","CAT08-07","CAT08-08","CAT08-00","CAT09-01","CAT09-02","CAT09-03","CAT09-04","CAT09-05","CAT09-06","CAT09-07","CAT09-08","CAT09-09","CAT09-00","CAT10-01","CAT10-02","CAT10-03","CAT10-04","CAT10-05","CAT10-06","CAT10-07","CAT10-08","CAT10-09","CAT10-10","CAT10-11","CAT10-12","CAT10-13","CAT10-14","CAT10-15","CAT10-16","CAT10-17","CAT10-18","CAT10-19","CAT10-20","CAT10-21","CAT10-22","CAT10-23","CAT10-24","CAT10-00","CAT11-01","CAT11-02","CAT11-03","CAT11-04","CAT11-05","CAT11-06","CAT11-07","CAT11-00","CAT12-01","CAT12-02","CAT12-00","CAT13-01","CAT13-02","CAT13-03","CAT13-04","CAT13-05","CAT13-06","CAT13-00","CAT14-01","CAT14-02","CAT14-03","CAT14-04","CAT14-00","CAT15-01","CAT15-02","CAT15-03","CAT15-00"]}, 
+                "inDefinedTermSet":{"type":"string", "description":"url to the termSet defining the correspondance between names and termCodes for categories of cultural products"}
+            }, 
+            "required":["@type","name", "termCode", "inDefinedTermSet"], 
+            "additionalProperties":false
+        }, 
+        "place":{
+            "$id":"validation_schemas/place_schema.json", 
+            "$schema" : "http://json-schema.org/draft-07/schema#", 
+            "title":"Place",
+            "description":"geographical area associated to operator",
+            "type":"object",
+            "properties": {
+                "@type": {"type":"array", "items":{"type":"string"}, "description": "obligatory schema.org element"},
+                "name":{"type":"string", "description":"name of the geographical area"},
+                "termCode":{"type":"string", "description":"termCode associated to the geographical area", "enum":["LOC01","LOC02","LOC03","LOC04","LOC05","LOC06","LOC07","LOC08","LOC09","LOC10","LOC11","LOC12","LOC13","LOC14","LOC15","LOC16","LOC17","LOC18","LOC19","LOC20","LOC21","LOC22","LOC23","LOC24","LOC25"]}, 
+                "inDefinedTermSet":{"type":"string", "description":"url to the termSet defining the correspondance between names and termCodes for geographical areas"}
+            }, 
+            "required":["@type","name", "termCode", "inDefinedTermSet"], 
+            "additionalProperties":false
+        }
+    }
+}
