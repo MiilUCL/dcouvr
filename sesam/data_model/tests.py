@@ -1,7 +1,7 @@
 import json 
 import pandas as pd
 from helper_functions import make_audience_block, make_category_block, make_location_block, make_DefinedTerm_audience_block, make_DefinedTerm_keywords_block, make_DefinedTerm_location_block
-from db_SESAM_Object import Event, Operator, Creator
+from sesam.data_model.schema_objects import Event, Operator, Creator
 from profiles import Profile, Preferences
 from preference_item import Preference_Item, Category, Audience, Area, CulturalCreator, CulturalOperator, CulturalProduct
 from random import randint
