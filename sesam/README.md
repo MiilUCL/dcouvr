@@ -39,3 +39,12 @@ Le fichier `validator.py` peut être appelé en ligne de commande de la manière
 > `python validator.py "path_to_json_to_be_validated.json"`
 
 Les fichiers décrivant les schémas de référence pour chacun des types d'objets de l'ontologie SESAM sont dans le dossier [*data_model/validator/validation_schemas*](data_model/validator/validation_schemas/).
+
+
+**Représentation interactive du modèle de données**
+
+A partir des fichiers .json au format *jsonschema* il est possible de générer automatiquement les pages html de visualisation contenues dans le dossier [*interactive_visualization*](../docs/sesam/sesam_v0/interactive_visualization/) en utilisant le package python `json-schema-for-humans` dont la documentation est disponible [ici](https://pypi.org/project/json-schema-for-humans/0.3.1/). 
+
+La commande à entrer dans une interface en ligne de commande est la suivante 
+
+> `generate-schema-doc "path_to_folder_with_input_files" "path_to_output_folder"`
